@@ -1,0 +1,685 @@
+{
+  "MeasureTable":{
+    "PP5V_TB_DIV"              :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE","3"],
+    "PP12V_TB_DIV"             :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE","3"],
+    "PN12V_TB_DIV"             :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE","3"],
+    "TEMP1_TO_DMM"             :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE",""],
+    "USBC_XA_DET"              :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE",""],
+    "USBC_XB_DET"              :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE",""],
+    "NA1"                      :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE",""],
+    "NA2"                      :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI0","FIXTURE",""],
+
+    "TP_PM_SLP_S3_L"           :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "PP1V2_S3"                 :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "PP0V6_S0_DDRVTT"          :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "TP_PP1V2_S3_CPUDDR"       :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "DFR_TOUCH_LID_OPEN_L"     :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "POWER_CURRENT_P1"         :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","POWER_CURRENT_N",""],
+    "ELOAD1_CURRENTPA"         :["io set(9,bit85=0,bit84=0,bit86=1,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","POWER_CURRENT_N",""],
+    "ELOAD1_CURRENTPC"         :["io set(9,bit85=0,bit84=1,bit86=1,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","POWER_CURRENT_N",""],
+    "ELOAD1_CURRENTPB"         :["io set(9,bit85=1,bit84=0,bit86=1,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","POWER_CURRENT_N",""],
+    "ELOAD1_CURRENTPD"         :["io set(9,bit85=1,bit84=1,bit86=1,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","POWER_CURRENT_N",""],
+    "PMU_RSLOC_RST_L_B"        :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE",""],
+    "PP20V_USBC_XA_VBUS"       :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI1","FIXTURE","4.9"],
+
+    "PP3V3_AWAKE"              :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "TP_P1V8G3S_EN"            :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "TP_DFR_PWR_EN"            :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "NA3"                      :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "PP20V_USBC_XB_VBUS"       :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE","4.9"],
+    "DMM_MIC_FREQ"             :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "DMM_TONE_DETECT"          :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+    "TP_ALL_SYS_PWRGD"         :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI2","FIXTURE",""],
+
+    "AUD_SLEEVE_XW"            :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "AUD_RING2_XW"             :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "NA4"                      :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "NA5"                      :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "TP_USBC_PP20V_XB"         :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "NA6"                      :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "NA7"                      :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+    "NA8"                      :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI3","FIXTURE",""],
+
+    "TP_SOC_DFU_STATUS"        :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+    "TP_SOC_DOCK_CONNECT"      :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+    "PPDCIN_G3H"               :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE","4.9"],
+    "PPDCIN_G3H_CHGR_DIV"      :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE","4.9"],
+    "NA9"                      :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+    "PM_SYSRST_L_B"            :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+    "TP_PM_PCH_PWROK"          :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+    "PM_PCH_SYS_PWROK"      :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI4","FIXTURE",""],
+
+    "PPVCC_S0_CPU"             :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "TP_PMU_ONOFF_R_L_CONN"    :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "PP0V9_SSD0"               :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "PP3V3_G3H"                :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "PP3V3_G3H_RTC"            :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "PLT_RST_L"              :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "TP_SMC_LID_RIGHT"         :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE",""],
+    "EXT_SENSE"                :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI5","FIXTURE","4.9"],
+
+    "PP3V3_G3S"                :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP1V2_S0SW"               :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP1V_PRIM"                :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP3V3_S5"                 :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP1V2_AWAKE"              :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP1V1_SLPDDR"             :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP1V_S0SW"                :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+    "PP0V8_SLPS2R"             :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI6","FIXTURE",""],
+
+
+    "PP1V8_S5"                 :["io set(6,bit54=0,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "PP1V8_G3S_WLANBT"         :["io set(6,bit54=0,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "PP1V8_AWAKE"              :["io set(6,bit54=0,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "NA10"                     :["io set(6,bit54=0,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "TP_PMU_PVDDMAIN_EN"       :["io set(6,bit54=1,bit53=0,bit52=0,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "TP_PM_THRMTRIP_L"         :["io set(6,bit54=1,bit53=0,bit52=1,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "TP_PM_SLP_S0_L"           :["io set(6,bit54=1,bit53=1,bit52=0,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+    "PP1V_S3"                  :["io set(6,bit54=1,bit53=1,bit52=1,bit80=0,bit79=1,bit55=1)","AI7","FIXTURE",""],
+
+
+
+
+    "TP_PP3V3_G3S_TPAD"        :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "PP1V8_MESA_FILT_CONN"     :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "TP_SMBUS_3V3_BATT_SDA"    :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "PPVCCEDRAM_S0_CPU"        :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "PP0V9_SLPDDR"             :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "TP_CHGR_EN_MVR"           :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "SOC_SOCHOT_L_B"           :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+    "TP_P3V3G3S_EN"            :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI0","FIXTURE",""],
+
+    "PP1V1_SLPS2R"             :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "PPVDDCPU_AWAKE"           :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "PMU_COLD_RESET_L_B"       :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "PMU_SYS_ALIVE"            :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "SMC_SYSRST_L"             :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "TP_P5VG3S_EN"             :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "PP1V8_G3S"                :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+    "P_4_096V"                 :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI1","FIXTURE",""],
+
+    "PMU_ACTIVE_READY"         :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "PP0V82_SLPDDR"            :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "PP_DIV"                   :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP5V_G3S_ALSCAM_F"       :["io set(9,bit66=0,bit65=0,bit64=0,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP5V_S0SW_LCD"            :["io set(9,bit66=0,bit65=0,bit64=1,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP5V_G3S_DFR_FILT"        :["io set(9,bit66=0,bit65=1,bit64=0,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PPBUS_G3H"                :["io set(9,bit66=0,bit65=1,bit64=1,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "TP_PP5V_G3S_TPAD_CONN"    :["io set(9,bit66=1,bit65=0,bit64=0,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP5V_G3S_FAN_CONN"        :["io set(9,bit66=1,bit65=0,bit64=1,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "TP_PPVIN_S4_TPAD_FUSE"    :["io set(9,bit66=1,bit65=1,bit64=0,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP5V_G3S"                 :["io set(9,bit66=1,bit65=1,bit64=1,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","3"],
+    "PP_DIV2"                  :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "PPVBAT_G3H_CONN_FB_R"     :["io set(9,bit119=0,bit118=0,bit117=0,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "USBC_VBUS_CHARGE"         :["io set(9,bit119=0,bit118=0,bit117=1,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "PPVBAT_VIN"               :["io set(9,bit119=0,bit118=1,bit117=0,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "GND"                      :["io set(9,bit119=0,bit118=1,bit117=1,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "XA_VBUS_SNS"              :["io set(9,bit119=1,bit118=0,bit117=0,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "XB_VBUS_SNS"              :["io set(9,bit119=1,bit118=0,bit117=1,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "NA16"                     :["io set(9,bit119=1,bit118=1,bit117=0,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "NA17"                     :["io set(9,bit119=1,bit118=1,bit117=1,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE","4.9"],
+    "TP_PP1V8_S3_MEM"          :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "TP_PM_RSMRST_L"           :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "TP_PCH_RTC_RESET_L"       :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+    "TP_PCH_PWRBTN_L"          :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI2","FIXTURE",""],
+
+    "TP_USBC_PP20V_XA"         :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "NA11"                     :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "PPVIN_S0SW_LCDBKLT_R_DIV" :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE","4.9"],
+    "PPVCCSA_S0_CPU"           :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "PPVPCORE_S5"              :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "PPVCCIO_S0_CPU"           :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "CPU_PROCHOT_R_L"          :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "PP_DIV4"                  :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "USBC_XA_CC1_CABLE"        :["io set(13,bit121=1,bit67=0,bit68=1,bit121=0,bit126=0,bit127=0,bit128=0,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "USBC_XA_CC2_CABLE"        :["io set(13,bit121=1,bit67=0,bit68=1,bit121=0,bit126=0,bit127=0,bit128=1,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "USBC_XB_CC1_CABLE"        :["io set(11,bit34=0,bit48=0,bit126=0,bit127=1,bit128=0,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "USBC_XB_CC2_CABLE"        :["io set(11,bit34=0,bit48=0,bit126=0,bit127=1,bit128=1,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "NA18"                     :["io set(9,bit126=1,bit127=0,bit128=0,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "NA19"                     :["io set(9,bit126=1,bit127=0,bit128=1,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "NA20"                     :["io set(9,bit126=1,bit127=1,bit128=0,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+    "NA21"                     :["io set(9,bit126=1,bit127=1,bit128=1,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI3","FIXTURE",""],
+
+    "SSD_REF_VOUT"             :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E0_ANI0_VREF"      :["io set(9,bit66=0,bit65=0,bit64=0,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E1_ANI0_VREF"      :["io set(9,bit66=0,bit65=0,bit64=1,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E2_ANI0_VREF"      :["io set(9,bit66=0,bit65=1,bit64=0,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E3_ANI0_VREF"      :["io set(9,bit66=0,bit65=1,bit64=1,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E0_ANI1_VREF"      :["io set(9,bit66=1,bit65=0,bit64=0,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E1_ANI1_VREF"      :["io set(9,bit66=1,bit65=0,bit64=1,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E2_ANI1_VREF"      :["io set(9,bit66=1,bit65=1,bit64=0,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD0_S4E3_ANI1_VREF"      :["io set(9,bit66=1,bit65=1,bit64=1,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "PP2V5_NAND_SSD0"          :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "SSD_PMU_RESET_L_B"        :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "NA12"                     :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "NA13"                     :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "IPD_LID_OPEN"             :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "TP_PP1V8_DMIC"            :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+    "TP_DP_INT_HPD"            :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI4","FIXTURE",""],
+
+    "TP_SMC_LID_LEFT"          :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "TP_PP5V_G3S_KBD"          :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "PP3V0_MESA_FILT_CONN"     :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "PP1V8_DFR"                :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "TP_EDP_PANEL_PWR_BUF_EN"  :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "PP3V3_S0SW_LCD"           :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "GND_DETECT"               :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE",""],
+    "PPVOUT_S0_LCDBKLT"        :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI5","FIXTURE","13"],
+
+    "PPVBAT_G3H_B_DIV"         :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE","5"],
+    "TP_SYS_DETECT_L"          :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+    "PP16V0_MESA_FILT_CONN"    :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE","4.9"],
+    "PP1V8_SLPS2R"             :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+    "TP_UPC_PMU_RESET"         :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+    "NA14"                     :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+    "SYS_DETECT"               :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+    "PVDDQ_PGOOD"              :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI6","FIXTURE",""],
+
+    "PP3V3_G3HSW_DFR"          :["io set(6,bit54=0,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "FAN_RT_PWM_DMM"           :["io set(6,bit54=0,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "PP1V8_IO_SSD0"            :["io set(6,bit54=0,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "PPVDDCPUSRAM_AWAKE"       :["io set(6,bit54=0,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "NA15"                     :["io set(6,bit54=1,bit53=0,bit52=0,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "PPVCCGT_S0_CPU"           :["io set(6,bit54=1,bit53=0,bit52=1,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "PP3V3_G3S_WLANBT"         :["io set(6,bit54=1,bit53=1,bit52=0,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+    "PP3V_G3H_RTC"             :["io set(6,bit54=1,bit53=1,bit52=1,bit80=1,bit79=0,bit55=1)","AI7","FIXTURE",""],
+
+
+
+    "DISCONNECT"               :["io set(28,bit64=0,bit65=0,bit66=0,bit126=0,bit127=0,bit128=0,bit119=0,bit118=1,bit117=0,bit64=0,bit65=0,bit66=0,bit85=0,bit84=0,bit86=0,bit54=0,bit53=0,bit52=0,bit59=0,bit58=0,bit57=0,bit56=0,bit62=0,bit61=0,bit60=0,bit80=0,bit79=0,bit55=0)"]
+
+
+  },
+  "AISwtichTable":{
+    "AI0"            :["io set(4,bit59=0,bit58=0,bit57=0,bit56=1)"],
+    "AI1"            :["io set(4,bit59=0,bit58=0,bit57=1,bit56=1)"],
+    "AI2"            :["io set(4,bit59=0,bit58=1,bit57=0,bit56=1)"],
+    "AI3"            :["io set(4,bit59=0,bit58=1,bit57=1,bit56=1)"],
+    "AI4"            :["io set(4,bit59=1,bit58=0,bit57=0,bit56=1)"],
+    "AI5"            :["io set(4,bit59=1,bit58=0,bit57=1,bit56=1)"],
+    "AI6"            :["io set(4,bit59=1,bit58=1,bit57=0,bit56=1)"],
+    "AI7"            :["io set(4,bit59=1,bit58=1,bit57=1,bit56=1)"],
+    "DISCONNECT"     :["io set(4,bit56=0,bit59=0,bit58=0,bit57=0)"]
+  },
+
+  "DMMSwitchGNDTable":{
+
+    "NA"             :["io set(4,bit62=0,bit61=0,bit60=0,bit56=1)"],
+    "FIXTURE"        :["io set(4,bit62=0,bit61=0,bit60=1,bit56=1)"],
+    "DUT"            :["io set(4,bit62=0,bit61=1,bit60=0,bit56=1)"],
+    "POWER_CURRENT_N":["io set(4,bit62=0,bit61=1,bit60=1,bit56=1)"],
+    "TP_ACT_GND"     :["io set(4,bit62=1,bit61=0,bit60=0,bit56=1)"],
+    "TP_GND_FAN"     :["io set(4,bit62=1,bit61=0,bit60=1,bit56=1)"],
+    "DISCONNECT"     :["io set(4,bit62=0,bit61=0,bit60=0,bit56=0)"]
+  },
+  "THDNFrequencyTable":{
+    "DMIC0"                   :["io set(3,bit76=1,bit78=0,bit77=1)","300","A"],
+    "FAN0_PWM_DUT_OUTPUT"     :["io set(3,bit76=1,bit78=0,bit77=0)","300","A"],
+    "DMIC1"                   :["io set(3,bit76=1,bit78=0,bit77=1)","300","B"],
+    "DISCONNECT"              :["io set(3,bit76=0,bit78=0,bit77=0)","",""]
+  },
+
+
+
+  "RelayTable":{
+
+
+
+    "SMC_FIXMODE_L":{
+      "CONNECT"                       :["io set(1,bit39=1)"],
+      "DISCONNECT"                    :["io set(1,bit39=0)"]
+    },
+
+    "I2C_Ctrl":{
+      "CONNECT"                       :["io set(2,bit37=1,bit42=0)"],
+      "DISCONNECT"                    :["io set(2,bit37=0,bit42=1)"]
+    },
+    "I2C_MONITOR_Ctrl":{
+      "CONNECT"                       :["io set(1,bit124=1)"],
+      "DISCONNECT"                    :["io set(1,bit124=0)"]
+    },
+
+    "PPVBAT_G3H_IN_CTL":{
+      "CONNECT"                       :["io set(1,bit96=1)"],
+      "DISCONNECT"                    :["io set(1,bit96=0)"]
+    },
+    "PPVBAT_ON_CTL":{
+      "CONNECT"                       :["io set(2,bit115=1,bit70=0)"],
+      "DISCONNECT"                    :["io set(2,bit115=0,bit70=0)"]
+    },
+    "BE_CHECK_CTL":{
+      "CONNECT"                       :["io set(2,bit115=1,bit70=1)"],
+      "DISCONNECT"                    :["io set(2,bit115=0,bit70=0)"]
+    },
+    "PP20V_USBC_ADAPTER_CTL":{
+      "NA"                             :["io set(4,bit112=0,bit109=0,bit110=0,bit112=1)"],
+      "PP20V_USBC_XA_VBUS"             :["io set(10,bit112=0,bit109=1,bit110=0,bit112=1,bit83=1,bit89=0,bit83=0,bit67=1,bit68=1,bit121=0)"],
+      "PP20V_USBC_XB_VBUS"             :["io set(9,bit112=0,bit109=0,bit110=1,bit112=1,bit83=1,bit89=1,bit83=0,bit34=1,bit48=0)"],
+      "DISCONNECT"                     :["io set(9,bit83=1,bit89=0,bit112=0,bit110=0,bit109=0,bit121=1,bit67=0,bit68=0,bit48=1)"]
+    },
+
+    "SWD_CTRL":{
+      "CONNECT"                       :["io set(4,bit113=0,bit114=0,bit36=1,bit116=0)"],
+      "DISCONNECT"                    :["io set(3,bit113=0,bit114=0,bit36=0)"]
+    },
+
+    "FAN_CTRL":{
+      "CONNECT"                       :["io set(3,bit78=0,bit77=0,bit76=1)"],
+      "DISCONNECT"                    :["io set(1,bit76=0)"]
+    },
+
+
+    "AMR_RIGHT":{
+      "CONNECT"                       :["io set(1,bit73=1)"],
+      "DISCONNECT"                    :["io set(1,bit73=0)"]
+    },
+
+
+    "Magnet_LEFT":{
+      "CONNECT"                       :["io set(1,bit44=1)"],
+      "DISCONNECT"                    :["io set(1,bit44=0)"]
+    },
+
+    "Magnet_RIGHT":{
+      "CONNECT"                       :["io set(1,bit74=1)"],
+      "DISCONNECT"                    :["io set(1,bit74=0)"]
+    },
+    "MAGNET_CTRL":{
+      "CONNECT"                       :["io set(2,bit44=1,bit74=1)"],
+      "DISCONNECT"                    :["io set(2,bit44=0,bit74=0)"]
+    },
+
+    "DEBUG_UART":{
+      "SMC"                           :["io set(1,bit17=1)"],
+      "PCH"                           :["io set(3,bit26=1,bit33=1,bit31=1)"],
+      "SOC"                           :["io set(1,bit19=1)"],
+      "DISCONNECT"                    :["io set(4,bit17=0,,bit19=0,bit26=0,bit33=0)"]
+    },
+
+    "ELOAD_CTRL":{
+      "VBUS_XA"                       :["io set(1,bit87=1)"],
+      "VBUS_XB"                       :["io set(1,bit88=1)"],
+      "VCON1_XA"                      :["io set(2,bit99=0,bit98=1)"],
+      "VCON1_XB"                      :["io set(2,bit99=0,bit98=1)"],
+      "VCON2_XA"                      :["io set(2,bit99=1,bit98=0)"],
+      "VCON2_XB"                      :["io set(2,bit99=1,bit98=0)"],
+      "DISCONNECT"                    :["io set(4,bit87=0,bit88=0,bit99=0,bit98=0)"]
+    },
+    "POWER_DISCHARGE":{
+      "BATTERY_DISCHARGE"             :["io set(1,bit23=1)"],
+      "USBC_DISCHARGE"                :["io set(1,bit25=1)"],
+      "DISCONNECT"                    :["io set(2,bit25=0,bit23=0)"]
+    },
+
+
+
+    "AUD_CONN":{
+      "HP_RT_TO_HS_MICP"                :["io set(5,bit95=0,bit92=1,bit93=1,bit94=1,bit40=0)"],
+      "HP_LT_TO_HS_MICP"                :["io set(5,bit95=0,bit92=1,bit93=1,bit94=0,bit40=0)"],
+      "HP_RT_TO_HS_MICN"                :["io set(5,bit95=0,bit92=0,bit93=1,bit94=1,bit40=0)"],
+      "HP_LT_TO_HS_MICN"                :["io set(5,bit95=0,bit92=0,bit93=1,bit94=0,bit40=0)"],
+      "MIKEY"                           :["io set(5,bit95=1,bit92=0,bit93=0,bit94=0,bit40=0)"],
+      "MIC_BIAS"                        :["io set(1,bit40=1)"],
+      "DISCONNECT"                      :["io set(5,bit95=0,bit92=0,bit93=0,bit94=0,bit40=1)"]
+    },
+
+
+    "AUD_CONN_SENSE":{
+      "AUD_TIP_SENSE"                 :["io set(1,bit29=1)"],
+      "AUD_RING_SENSE"                :["io set(1,bit30=1)"],
+      "DISCONNECT"                    :["io set(2,bit29=0,bit30=0)"]
+    },
+
+    "SPKR_ID0":{
+      "CONNECT"                       :["io set(1,bit38=1)"],
+      "DISCONNECT"                    :["io set(1,bit38=0)"]
+    },
+
+    "MESA_CTRL":{
+      "CONNECT"                       :["io set(1,bit24=1)"],
+      "DISCONNECT"                    :["io set(1,bit24=0)"]
+    },
+
+    "AUDIO_PDM_CTRL":{
+      "CONNECT"                       :["io set(4,bit76=0,bit78=0,bit77=1,bit76=1)"],
+      "DISCONNECT"                    :["io set(3,bit76=0,bit78=0,bit77=0)"]
+    },
+    "SOC_UART_CTRL":{
+      "CONNECT"                       :["io set(1,bit17=1)"],
+      "DISCONNECT"                    :["io set(1,bit17=0)"]
+    },
+    "SMC_UART_CTRL":{
+      "CONNECT"                       :["io set(1,bit19=1)"],
+      "DISCONNECT"                    :["io set(1,bit19=0)"]
+    },
+    "TCONN_I2C":{
+      "CONNECT"                       :["io set(1,bit20=1)"],
+      "DISCONNECT"                    :["io set(1,bit20=0)"]
+    },
+    "PCH_UART_CTRL":{
+      "CONNECT_TO_CHIMP2"             :["io set(2,bit33=0,bit26=1)"],
+      "CONNECT_TO_ZYNQ_UART"          :["io set(2,bit33=1,bit26=1)"],
+      "DISCONNECT"                    :["io set(2,bit33=0,bit26=0)"]
+    },
+    "CHIMP2":{
+      "CONNECT"                       :["io set(2,bit33=0,bit26=1)"],
+      "DISCONNECT"                    :["io set(2,bit33=0,bit26=0)"]
+    },
+    "XA_VBUS_TO_CHIMP":{
+      "CONNECT"                       :["io set(1,bit47=1)"],
+      "DISCONNECT"                    :["io set(1,bit47=0)"]
+    },
+    "XA_SBU":{
+      "CONNECT"                       :["io set(2,bit113=1,bit114=0)"],
+      "DISCONNECT"                    :["io set(2,bit113=0,bit114=0)"]
+    },
+    "XA_CC_TO_CHIMP1":{
+      "CONNECT"                       :["io set(4,bit121=0,bit67=1,bit68=0)"],
+      "DISCONNECT"                    :["io set(4,bit121=1,bit67=0,bit31=0,bit68=0)"]
+    },
+    "USB_SOC":{
+      "CHIMP"                         :["io set(2,bit32=1,bit31=0)"],
+      "MAC_MINI"                      :["io set(2,bit32=1,bit31=1)"],
+      "DISCONNECT"                    :["io set(2,bit32=0,bit31=0)"]
+    },
+    "DCI_CTRL":{
+      "CONNECT"                       :["io set(1,bit43=1)"],
+      "DISCONNECT"                    :["io set(1,bit43=0)"]
+    },
+    "DISCHARGE_CTRL":{
+      "PPBUS_G3H"                     :["io set(1,bit23=1)"],
+      "PPVBAT_G3H_CONN"               :["io set(1,bit23=1)"],
+      "PP20V_USBC_XA_VBUS"            :["io set(1,bit25=1)"],
+      "PP20V_USBC_XB_VBUS"            :["io set(1,bit25=1)"],
+      "PPDCIN_G3H"                    :["io set(1,bit25=1)"],
+      "DISCONNECT"                    :["io set(2,bit23=0,bit25=0)"]
+    },
+    "DUT_CTRL":{
+      "SPKR_ID0"                   :["io set(1,bit38=1)"],
+      "SPKR_ID1"                   :["io set(1,bit38=1)"],
+      "PMU_ONOFF_R_L"              :["io set(1,bit51=1)"],
+      "PMU_COLD_RESET_L"           :["io set(1,bit28=1)"],
+      "PMU_RSLOC_RST_R_L"          :["io set(1,bit41=1)"],
+      "SMC_FIXTURE_MODE_L"         :["io set(1,bit39=1)"],
+      "MESA_BOOST_EN_CONN"         :["io set(1,bit18=1)"],
+      "MESA_INT_CONN"              :["io set(1,bit50=1)"],
+      "SOC_FORCE_DFU"              :["io set(1,bit49=1)"],
+      "PP1V8_AWAKE"                :["io set(1,bit120=1)"],
+      "SMC_LID_RIGHT"              :["io set(1,bit73=1)"],
+      "SMC_LID_RIGHT_TO_GND"       :["io set(1,bit74=1)"],
+      "SMC_LID_LEFT"               :["io set(1,bit44=1)"],
+      "DISCONNECT"                 :["io set(12,bit38=0,bit51=0,bit28=0,bit41=0,bit39=0,bit18=0,bit50=0,bit49=0,bit120=0,bit73=0,bit74=0,bit44=0)"]
+    },
+    "PMU_RSLOC_RST_R_L":{
+      "CONNECT"                       :["io set(1,bit41=1)"],
+      "DISCONNECT"                    :["io set(1,bit41=0)"]
+    },
+    "PMU_ONOFF_R_L":{
+      "CONNECT"                       :["io set(1,bit51=1)"],
+      "DISCONNECT"                    :["io set(1,bit51=0)"]
+    },
+
+
+
+    "VDM":{
+      "TP_PP20V_USBC_XA_VBUS"         :["io set(1,bit46=1)"],
+      "XA_CC_TO_VDM"                  :["io set(3,bit67=0,bit68=0,bit121=0)"],
+      "DISCONNECT"                    :["io set(5,bit46=0,bit121=1,bit67=0,bit31=0,bit68=0)"]
+    },
+    "SWD":{
+      "XA_SBU_TO_XAVIER_SWD"          :["io set(4,bit113=1,bit36=0,bit114=1,bit116=0)"],
+      "TP_SWD_SOC_XB_TO_XAVIER_SWD"   :["io set(4,bit113=0,bit36=1,bit114=0,bit116=0)"],
+      "DISCONNECT"                    :["io set(4,bit113=0,bit36=0,bit114=1,bit116=0)"]
+    },
+    "MIKEY3_CTRL":{
+      "CONNECT"                       :["io set(1,bit27=1)"],
+      "DISCONNECT"                    :["io set(1,bit27=0)"]
+    },
+    "TP_AUD_CONN_TIP_SENSE_TO_GND":{
+      "CONNECT"                       :["io set(1,bit29=1)"],
+      "DISCONNECT"                    :["io set(1,bit29=0)"]
+    },
+    "TP_AUD_CONN_RING_SENSE_TO_GND":{
+      "CONNECT"                       :["io set(1,bit30=1)"],
+      "DISCONNECT"                    :["io set(1,bit30=0)"]
+    },
+    "CHINA_GLOBAL":{
+      "CHINA"                         :["io set(1,bit92=1)"],
+      "GLOBAL"                        :["io set(1,bit92=0)"],
+      "DISCONNECT"                    :["io set(1,bit92=0)"]
+    },
+    "TP_AUD_CONN_RING_SENSE":{
+      "CONNECT"                       :["io set(1,bit93=1)"],
+      "DISCONNECT"                    :["io set(1,bit93=0)"]
+    },
+    "TP_AUD_CONN_TO_MIC":{
+      "RIGHT"                         :["io set(1,bit94=1)"],
+      "LEFT"                          :["io set(1,bit94=0)"],
+      "DISCONNECT"                    :["io set(1,bit94=0)"]
+    },
+    "TP_AUD_CONN_MODE":{
+      "BUTTON"                        :["io set(1,bit95=1)"],
+      "RING"                          :["io set(1,bit95=0)"],
+      "DISCONNECT"                    :["io set(1,bit95=0)"]
+    },
+
+    "TCA6416A_Reset":{
+      "CONNECT"                        :["io set(1,bit35=1)"],
+      "DISCONNECT"                     :["io set(1,bit35=0)"]
+    },
+
+    "USBC_SIGNAL_CTRL":{
+      "XA_CONNECT_TO_VDM"                               :["io set(4,bit67=0,bit31=0,bit68=0,bit121=0)"],
+      "XA_CONNECT_TO_CHIMP"                             :["io set(4,bit67=0,bit31=1,bit68=0,bit121=0)"],
+      "XA_CONNECT_TO_DMM"                               :["io set(4,bit67=1,bit31=0,bit68=0,bit121=0)"],
+      "XA_CONNECT_TO_CHARGE"                            :["io set(4,bit67=1,bit31=0,bit68=1,bit121=0)"],
+      "XB_CONNECT_TO_DMM"                               :["io set(2,bit34=0,bit48=0)"],
+      "XB_CONNECT_TO_CHARGE"                            :["io set(2,bit34=1,bit48=0)"],
+      "DISCONNECT"                                      :["io set(6,bit67=0,bit31=0,bit68=0,bit121=1,bit34=0,bit48=1)"]
+    },
+    "USB_ELOAD_CTRL":{
+      "PP20V_USBC_XA_VBUS_A"                             :["io set(2,bit87=0,bit88=1)"],
+      "PP20V_USBC_XB_VBUS_C"                             :["io set(2,bit87=1,bit88=0)"],
+      "XA_VBUS_TO_CONN_DOE"                              :["io set(1,bit82=1)"],
+      "DISCONNECT"                                       :["io set(3,bit87=0,bit88=0,bit82=0)"]
+    },
+    "CC_ELOAD_CTRL":{
+      "CHARGE_USBC_XACC1_B"                            :["io set(2,bit99=0,bit98=0)"],
+      "CHARGE_USBC_XACC2_B"                            :["io set(2,bit99=1,bit98=0)"],
+      "CHARGE_USBC_XBCC1_D"                            :["io set(2,bit99=0,bit98=0)"],
+      "CHARGE_USBC_XBCC2_D"                            :["io set(2,bit99=1,bit98=0)"],
+      "DISCONNECT"                                     :["io set(2,bit99=0,bit98=0)"]
+    },
+    "PPVBAT_EN":{
+      "CONNECT"                                                        :["io set(1,bit96=1)"],
+      "DISCONNECT"                                                     :["io set(1,bit96=0)"]
+    },
+    "BATTERY_CTRL":{
+      "SMBUS_TO_Xavier"                                                     :["io set(1,bit69=0)"],
+      "SMBUS_TO_MLB"                                                        :["io set(1,bit69=1)"],
+      "ENABLE_BE_OUTPUT"                                                    :["io set(2,bit70=1,bit115=1)"],
+      "DISCONNECT"                                                          :["io set(3,bit69=0,bit70=0,bit115=0)"]
+    },
+    "USB_CHARGE_SELECT":{
+      "PP20V_VBUS_TO_XA_VBUS"                                               :["io set(3,bit112=1,bit110=0,bit109=1)"],
+      "PP20V_VBUS_TO_XB_VBUS"                                               :["io set(3,bit112=1,bit110=1,bit109=0)"],
+      "DISCONNECT"                                                          :["io set(3,bit112=0,bit110=0,bit109=0)"]
+    },
+    "USB_CHARGE_CC":{
+      "USBC_CHARGE_TO_XA_CC"                                                :["io set(2,bit83=0,bit89=0)"],
+      "USBC_CHARGE_TO_XB_CC"                                                :["io set(2,bit83=0,bit89=1)"],
+      "DISCONNECT"                                                          :["io set(2,bit83=1,bit89=0)"]
+    },
+    "VOLTAGE_CAL_CTRL":{
+      "TP_PPVOUT_S0_LCDBKLT"                                           :["io set(2,bit104=1,bit125=0)"],
+      "P_34410_VOLTAGE_L"                                              :["io set(2,bit104=1,bit125=1)"],
+      "DISCONNECT"                                                     :["io set(2,bit104=0,bit125=0)"]
+    },
+    "CAL_34410_VOLTAGE_L":{
+      "PP1V8_MESA_FILT_CONN"                                           :["io set(5,bit103=0,bit102=0,bit101=0,bit100=0,bit104=1)"],
+      "PPDCIN_G3H"                                                     :["io set(5,bit103=0,bit102=0,bit101=0,bit100=1,bit104=1)"],
+      "PPDCIN_G3H_CHGR"                                                :["io set(5,bit103=0,bit102=0,bit101=1,bit100=0,bit104=1)"],
+      "PPVBAT_G3H_CONN"                                                :["io set(5,bit103=0,bit102=0,bit101=1,bit100=1,bit104=1)"],
+      "PP16V0_MESA_FILT_CONN"                                          :["io set(5,bit103=0,bit102=1,bit101=0,bit100=0,bit104=1)"],
+      "PPBUS_G3H"                                                      :["io set(5,bit103=0,bit102=1,bit101=0,bit100=1,bit104=1)"],
+      "PP5V_G3S_KBD"                                                   :["io set(5,bit103=0,bit102=1,bit101=1,bit100=0,bit104=1)"],
+      "PPVIN_S4_TPAD_FUSE"                                             :["io set(5,bit103=0,bit102=1,bit101=1,bit100=1,bit104=1)"],
+      "PP5V_S0SW_LCD"                                                  :["io set(5,bit103=1,bit102=0,bit101=0,bit100=0,bit104=1)"],
+      "PP3V3_G3S"                                                      :["io set(5,bit103=1,bit102=0,bit101=0,bit100=1,bit104=1)"],
+      "PP2V5_NAND_SSD0"                                                :["io set(5,bit103=1,bit102=0,bit101=1,bit100=0,bit104=1)"],
+      "XA_VBUS_SNS"                                                    :["io set(5,bit103=1,bit102=0,bit101=1,bit100=1,bit104=1)"],
+      "TP_PP20V_USBC_XB_VBUS"                                          :["io set(5,bit103=1,bit102=1,bit101=0,bit100=0,bit104=1)"],
+      "NA23"                                                           :["io set(5,bit103=1,bit102=1,bit101=0,bit100=1,bit104=1)"],
+      "TP_PP20V_USBC_XA_VBUS"                                          :["io set(5,bit103=1,bit102=1,bit101=1,bit100=0,bit104=1)"],
+      "NA24"                                                           :["io set(5,bit103=1,bit102=1,bit101=1,bit100=1,bit104=1)"],
+      "DISCONNECT"                                                     :["io set(5,bit103=0,bit102=0,bit101=0,bit100=0,bit104=0)"]
+    },
+    "CURRENT_CAL_CTRL":{
+      "PPVBAT_G3H_IN_CAL"                                              :["io set(5,bit108=0,bit107=1,bit106=0,bit105=0,bit104=0)"],
+      "PP5V_TB_CAL"                                                    :["io set(5,bit108=1,bit107=0,bit106=0,bit105=1,bit104=0)"],
+      "PP20V_VBUS_CONN_CAL"                                            :["io set(5,bit108=1,bit107=1,bit106=1,bit105=0,bit104=0)"],
+      "VCCP_5V_CAL"                                                    :["io set(5,bit108=1,bit107=0,bit106=1,bit105=1,bit104=0)"],
+      "DISCONNECT"                                                     :["io set(5,bit108=0,bit107=0,bit106=0,bit105=0,bit104=1)"]
+    }
+  },
+  "EloadTable": {
+    "PP20V_USBC_XA_VBUS_A"      :{"io":"io set(2,bit88=0,bit87=1)","dac":"1"},
+    "PP20V_USBC_XB_VBUS_C"      :{"io":"io set(2,bit88=1,bit87=0)","dac":"3"},
+    "CHARGE_USBC_XACC1_B"       :{"io":"io set(2,bit99=0,bit98=1)","dac":"2"},
+    "CHARGE_USBC_XACC2_B"       :{"io":"io set(2,bit99=1,bit98=0)","dac":"2"},
+    "CHARGE_USBC_XBCC1_D"       :{"io":"io set(2,bit99=0,bit98=0)","dac":"4"},
+    "CHARGE_USBC_XBCC2_D"       :{"io":"io set(2,bit99=1,bit98=0)","dac":"4"},
+    "ELOAD1_A"                  :{"io":"","dac":"","gain":"1","offet":"0"},
+    "ELOAD2_B"                  :{"io":"","dac":"","gain":"1","offet":"0"},
+    "ELOAD3_C"                  :{"io":"","dac":"","gain":"1","offet":"0"},
+    "ELOAD4_D"                  :{"io":"","dac":"","gain":"1","offet":"0"},
+    "DISCONNECT"                :{"io":"io set(4,bit99=0,bit98=0,bit88=0,bit87=0)","dac":""}
+  },
+  "ELOAD":{
+    "PP20V_USBC_XA_VBUS_A":{"io":"io set(1,bit91=1)","dac":"1"},
+    "PP20V_USBC_XB_VBUS_C":{"io":"io set(1,bit91=1)","dac":"3"},
+    "USBC_XA_CC1_CONN_B"  :{"io":"io set(1,bit89=1,bit90=0)","dac":"2"},
+    "USBC_XB_CC1_CONN_D"  :{"io":"io set(1,bit89=1,bit90=0)","dac":"4"},
+    "USBC_XA_CC2_CONN_B"  :{"io":"io set(1,bit89=1,bit90=1)","dac":"2"},
+    "USBC_XB_CC2_CONN_D"  :{"io":"io set(1,bit89=1,bit90=1)","dac":"4"},
+    "VBUS_XA_A"           :{"dac":"1"},
+    "VBUS_XB_B"           :{"dac":"3"},
+    "VCON_XA_C"           :{"dac":"2"},
+    "VCON_XB_D"           :{"dac":"4"},
+    "ELOAD_A"             :{"io":"","dac":"","gain":"1","offset":"0"},
+    "ELOAD_B"             :{"io":"","dac":"","gain":"1","offset":"0"},
+    "ELOAD_C"             :{"io":"","dac":"","gain":"1","offset":"0"},
+    "ELOAD_D"             :{"io":"","dac":"","gain":"1","offset":"0"},
+    "DISCONNECT"          :{"io":"io set(4,bit89=0,bit90=0,bit91=0,bit92=0)","dac":""}
+  },
+  "CHANNEL":{
+    "CH1": ["PPDCIN_G3H_B_DIV","4.9","0,1","400"],
+    "CH2": ["PPVBAT_G3H_B_DIV","4.9","0,1","400"],
+    "CH3": ["PPBUS_G3H_B_DIV","3","0","1","400"],
+    "CH4": ["SYS_DETECT_L_B","1","0","1","400"],
+    "CH5": ["TP_PPVCC_S0_CPU","1","0","1","400"],
+    "CH6": ["TP_PPVCCSA_S0_CPU","1","0","1","400"],
+    "CH7": ["TP_PPVCCEDRAM_S0_CPU","1","0","1","400"],
+    "CH8": ["TP_PP1V_S3","1","0","1","400"],
+    "CH9": ["TP_PP1V8_S3_MEM","1","0","1","400"],
+    "CH10": ["TP_PP1V2_S3","1","0","1","400"],
+    "CH11": ["TP_PP1V_PRIM","1","0","1","400"],
+    "CH12": ["TP_PP3V3_S5","1","0","1","400"],
+    "CH13": ["TP_PP1V8_S5","1","0","1","400"],
+    "CH14": ["TP_PP3V_G3H_RTC","1","0","1","400"],
+    "CH15": ["ALL_SYS_PWRGD_B","1","0","1","400"],
+    "CH16": ["PCH_RTC_RESET_L_B","1","0","1","400"],
+    "CH17": ["PM_SYSRST_L_B","1","0","1","400"],
+    "CH18": ["PM_PCH_PWROK_B","1","0","1","400"],
+    "CH19": ["PM_PCH_SYS_PWROK_B","1","0","1","400"],
+    "CH20": ["PM_RSMRST_L_B","1","0","1","400"],
+    "CH21": ["PM_SLP_S3_L_B","1","0","1","400"],
+    "CH22": ["PLT_RST_L_B","1","0","1","400"],
+    "CH23": ["CPU_VR_READY_B","1","0","1","400"],
+    "CH24": ["TP_PP1V8_SLPS2R","1","0","1","400"],
+    "CH25": ["TP_PP0V82_SLPDDR","1","0","1","400"],
+    "CH26": ["TP_PPVDDCPU_AWAKE","1","0","1","400"],
+    "CH27": ["PMU_COLD_RESET_L_B","1","0","1","400"],
+    "CH28": ["PMU_SYS_ALIVE_B","1","0","1","400"],
+    "CH29": ["PMU_ACTIVE_READY_B","1","0","1","400"],
+    "CH30": ["CHGR_EN_MVR_B","1","0","1","400"],
+
+    "CH31": ["PP3V3_G3H_RTC_B","52/11","0","1","1900"],
+    "CH32": ["TP_PP3V3_G3H","52/11","0","1","400"],
+    "CH33": ["UPC_PMU_RESET_B","52/11","0","1","400"],
+    "CH34": ["TP_PP3V3_G3S","52/11","0","1","400"],
+    "CH35": ["TP_PP5V_G3S","52/11","0","1","400"],
+    "CH36": ["TP_PP1V8_G3S","52/11","0","1","400"],
+    "CH37": ["SSD_PMU_RESET_L_B","52/11","0","1","400"],
+    "CH38": ["PP1V8_IO_SSD0_B","52/11","0","1","400"],
+    "CH39": ["PP0V9_SSD0_B","52/11","0","1","400"],
+    "CH40": ["PP2V5_NAND_SSD0_B","52/11","0","1","400"],
+    "CH41": ["TP_PPVCCGT_S0_CPU","1","0","1","900"],
+    "CH42": ["TP_PPVCCIO_S0_CPU","1","0","1","1650"],
+    "CH43": ["TP_PP1V_S0SW","1","0","1","600"],
+    "CH44": ["TP_PP1V2_S0SW","1","0","1","600"],
+    "CH45": ["TP_PP0V6_S0_DDRVTT","1","0","1","500"],
+    "CH46": ["TP_PPVPCORE_S5","1","0","1","1650"],
+    "CH47": ["TP_PP3V3_S0SW_LCD","1","0","1","1650"],
+    "CH48": ["TP_PP5V_S0SW_LCD","1","0","1","1650"],
+    "CH49": ["PM_SLP_S0_L_B","1","0","1","900"],
+    "CH50": ["PM_THRMTRIP_L_B","1","0","1","900"],
+    "CH51": ["PCH_PWRBTN_L_B","1","0","1","1650"],
+    "CH52": ["CPU_PROCHOT_R_L_B","1","0","1","600"],
+    "CH53": ["CPU_CATERR_L_B","1","0","1","900"],
+    "CH54": ["TP_PP1V8_AWAKE","1","0","1","600"],
+    "CH55": ["TP_PP1V1_SLPS2R","1","0","1","600"],
+    "CH56": ["TP_PP0V8_SLPS2R","1","0","1","500"],
+    "CH57": ["TP_PP3V3_AWAKE","1","0","1","900"],
+    "CH58": ["PPVDDCPUSRAM_AWAKE_B","1","0","1","500"],
+    "CH59": ["TP_PP0V9_SLPDDR","1","0","1","1650"],
+    "CH60": ["TP_PP1V1_SLPDDR","1","0","1","500"],
+    "CH61": ["TP_PP1V2_AWAKE","1","0","1","500"],
+    "CH62": ["PMU_PVDDMAIN_EN_B","1","0","1","1200"],
+    "CH63": ["TP_SMC_FIXTURE_MODE_L_B","1","0","1","1200"],
+    "CH64": ["SOC_WDOG_B","1","0","1","600"],
+    "CH65": ["SOC_SOCHOT_L_B","1","0","1","1650"],
+    "CH66": ["PMU_ONOFF_R_L_CONN_B","1","0","1","1650"],
+    "CH67": ["P3V3G3S_EN_B","1","0","1","1650"],
+    "CH68": ["P5VG3S_EN_B","1","0","1","1650"],
+    "CH69": ["P1V8G3S_EN_B","1","0","1","1650"],
+    "CH70": ["SSD0_WP_L_B","1","0","1","900"],
+
+    "CH71": ["SSD0_OCARINA_PFN_L_B","1","0","1","1500"],
+    "CH72": ["SSD0_OCARINA_RESET_L_B","1","0","1","600"],
+    "CH73": ["SSD0_OCARINA_LPB_L_B","1","0","1","200"],
+    "CH74": ["SSD_BFH_B","1","0","1","360"],
+    "CH75": ["NA","1","0","1","160"],
+    "CH76": ["NA","1","0","1","200"],
+    "CH77": ["NA","1","0","1","600"],
+    "CH78": ["NA","1","0","1","600"],
+    "CH79": ["NA","1","0","1","600"],
+    "CH80": ["NA","1","0","1","2200"]
+  },
+  "DataLog":{
+    "CH1":["1","(1+(49400/510))","5","0.005","PPVBAT_G3H_CURRENT","A","1000","(1+(49400/1000))","0.1"],
+    "CH2":["4.9","1","5","1","PPVBAT_G3H_VOLTAGE","B"],
+    "CH3":["1","(1+(49400/510))","5","0.005","USBC_CHARGE_VBUS_CURRENT","C","1000","(1+(49400/1000))","0.1"],
+    "CH4":["4.9","1","5","1","USBC_CHARGE_VBUS_VOLTAGE","D"]
+  },
+  "Calmeasure": {
+    "PP5V_G3S"                  :"0x200",
+    "PPBUS_G3H"                 :"0x210",
+    "PPDCIN_G3H"                :"0x220",
+    "PPVBAT_G3H_CONN_DIV"       :"0x230",
+    "PPVOUT_S0_LCDBKLT_DIV"     :"0x240",
+    "USBC_CHARGE_VBUS_OUT_DIV"  :"0x250",
+    "Temperature"               :"0x260",
+    "ILOAD_A"                   :"0X3A0",
+    "ILOAD_B"                   :"0X3B0",
+    "ILOAD_C"                   :"0X3C0",
+    "ILOAD_D"                   :"0X3D0"
+  },
+  "Caleload":{
+    "ELOAD_A"       :"0X360",
+    "ELOAD_B"       :"0X370",
+    "ELOAD_C"       :"0X380",
+    "ELOAD_D"       :"0X390"
+  }
+
+}

@@ -1,0 +1,2 @@
+Data:  {{battery_emulator_fw_ver}} 
+[00

@@ -1,0 +1,3 @@
+spkr1:
+{{r_tweeter_id_addr}} = {{r_tweeter_id}}
+OK

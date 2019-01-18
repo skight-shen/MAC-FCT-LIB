@@ -1,0 +1,5 @@
+Maximum voltage: {{maximum_voltage_2}} V
+Minimum voltage: {{minimum_voltage_2}} V
+Peak-to-peak voltage: {{Peak-to-peak}} Vpp
+Maximum absolute current: {{current}} A
+OK

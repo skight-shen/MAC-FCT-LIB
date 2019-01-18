@@ -1,0 +1,4 @@
+
+Window Size:{{bsync_window_size}}, Samples:{{bsync_sample_count}}
+Period Max-Min(us):{{bsync_period_max}},	{{bsync_period_min}}	Avg:{{bsync_period}}
+Jitter Max-Min(us):{{bsync_jitter_max}},	{{bsync_jitter_min}}	Avg:{{bsync_jitter_avg}}

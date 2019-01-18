@@ -1,0 +1,10 @@
+Firmware Volume Devices:
+  fv0: {{unused0}}
+File System Devices:
+  fs0: {{build_train}}.{{unused1}}
+  fs1: {{unused3}}
+Block IO Devices:
+  blk0: {{unused4}}
+  blk1: {{unused5}}
+  blk2: {{unused6}}
+  blk3: {{unused7}}

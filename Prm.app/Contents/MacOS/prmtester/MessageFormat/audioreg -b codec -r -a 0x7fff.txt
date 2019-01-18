@@ -1,0 +1,4 @@
+
+codec:
+	0x7FFF = {{ashford_rev_id}}
+OK

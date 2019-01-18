@@ -1,0 +1,9 @@
+
+Executing test 'test_clock' on sensor 'platinum'...
+
+WREG 0x24 = 0x0008
+WREG 0x22 = 0x4000
+RREG 0x15 = 0x0000
+WREG 0x15 = 0x0004
+test-result: {{citrine_test_clock_result}}
+PASS

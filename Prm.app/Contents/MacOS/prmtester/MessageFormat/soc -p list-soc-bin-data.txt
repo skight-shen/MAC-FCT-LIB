@@ -1,0 +1,4 @@
+SOC Bin data:
+'Index'	 'Bin Frequency(MHz)'	'Voltage(mV)'
+     0	                   {{soc_bin_frequency}}	         {{soc_bin_voltage}}
+     1	                  {{soc_bin_frequency_1}}	           {{soc_bin_voltage_1}}

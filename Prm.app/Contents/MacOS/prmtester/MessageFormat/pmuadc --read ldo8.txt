@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ldo8: {{pmuadc_ldo8}} mV

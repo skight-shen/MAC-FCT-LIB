@@ -1,0 +1,5 @@
+#!/bin/bash
+workPath=$(dirname $0)
+cd $workPath"/prmtester"
+target="./startGUI.py"
+python $target

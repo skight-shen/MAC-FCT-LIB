@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ibubo: {{ibubo_avg10}} mV

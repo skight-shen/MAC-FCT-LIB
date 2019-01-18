@@ -1,0 +1,2 @@
+Key Read “B0AV”:
+00000000:{{smc_read_B0AV}}                                           |

@@ -1,0 +1,59 @@
+{
+    "Password":{
+        "op":"admin",
+        "sp":"admin"
+    },
+    "fixture":{
+        "bin":"/FixtureCtl/FixtureServer.py",
+        "name":"fixture",
+        "path":"{prm}"
+    },
+    "pdca":{
+        "bin":"/x527/loggers/logger.py",
+        "name":"openpdca",
+        "path":"{pySeq}"
+    },
+    "prmlock":{
+        "bin":"/AynsLock/LockServer.py",
+        "name":"LockSever",
+        "path":"{prm}"
+    },
+    "prmlog":{
+        "bin":"/Log/LogServer.py",
+        "name":"LogSever",
+        "path":"{prm}"
+    },
+    "processes":[
+        {
+            "args":"-s 0 -c -f 1",
+            "bin":"/x527/sequencer/sequencer.py",
+            "name":"sequencer1",
+            "path":"{pySeq}"
+        },
+        {
+            "args":"-s 1 -c -f 1",
+            "bin":"/x527/sequencer/sequencer.py",
+            "name":"sequencer2",
+            "path":"{pySeq}"
+        },
+        {
+            "args":"-s 2 -c -f 1",
+            "bin":"/x527/sequencer/sequencer.py",
+            "name":"sequencer3",
+            "path":"{pySeq}"
+        },
+        {
+            "args":"-s 3 -c -f 1",
+            "bin":"/x527/sequencer/sequencer.py",
+            "name":"sequencer4",
+            "path":"{pySeq}"
+        },
+        {
+            "bin":"/StateMachine/StateMachine.py",
+            "name":"statemachine",
+            "path":"{prm}"
+        }
+    ],
+    "project":"EXAMPLE_CONFIG",
+    "scriptpath":"/Users/gdlocal/Public/PRMeasurement/Profile/J140_MP_TESTPLAN_BE__201809011.csv"
+}

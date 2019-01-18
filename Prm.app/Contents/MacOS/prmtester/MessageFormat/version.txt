@@ -1,0 +1,3 @@
+{{program}} Diag ({{branch}})
+{{build_engine}} build {{build_version}} ({{diags_version}}). Revision {{revision}}.
+	Built at {{build_date_time}}

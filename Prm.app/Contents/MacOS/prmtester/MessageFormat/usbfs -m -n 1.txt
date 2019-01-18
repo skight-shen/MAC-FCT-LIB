@@ -1,0 +1,3 @@
+{{localname}}.local
+{{inited_fs}}
+OK

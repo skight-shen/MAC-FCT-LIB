@@ -1,0 +1,15 @@
+ Peak Bin={{Peak_bin}}Peak Magnitude={{fft_peak_magnitude0}}FS; Frequency: {{fft_peak_frequency0}} /-{{noneed3}}SINAD={{sinad0}} dBFS{{noneed4}}THDN: {{thdn0}} dB
+Channel 1:
+Using 131072 bins, Peak Bin={{Peak_bin1}}Peak Magnitude={{fft_peak_magnitude1}} FS; Frequency: {{fft_peak_frequency1}} /-{{noneed8}}SINAD={{sinad1}} dBFS{{noneed9}}THDN: {{thdn1}} dB
+Channel 2:
+Using 131072 bins, Peak Bin={{Peak_bin2}}; Peak Magnitude={{fft_peak_magnitude2}} FS; Frequency: {{fft_peak_frequency2}} /-{{noneedh1}}Hz
+DC Magnitude={{noneedh2}} FS
+Signal Bins=3
+SINAD={{sinad2}} dBFS
+Peak{{noneedh4}}dBFS
+Signal{{noneedh5}}dBFS
+Noise{{noneedh6}}dBFS
+Average Noise PSD{{noneedh7}}dBFS
+Noise Margin{{noneedh8}}dBFS
+THDN: {{thdn2}} dB
+OK

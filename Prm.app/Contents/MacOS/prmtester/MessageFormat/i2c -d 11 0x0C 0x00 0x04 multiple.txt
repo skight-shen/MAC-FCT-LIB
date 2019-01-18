@@ -1,0 +1,2 @@
+Data:  {{read_battery_emulator_volt}} 
+[00

@@ -1,0 +1,2 @@
+            vrect_low_res: {{baux_vrect_low_res}}
+OK

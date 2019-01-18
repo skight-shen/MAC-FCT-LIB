@@ -1,0 +1,9 @@
+Stage statistics:
+     Offset: average = {{offset_average}} stdev = {{offset_stdev}}
+    Stage 0: average = {{stage0_average}} stdev = {{stage0_stdev}}
+    Stage 1: average = {{stage1_average}} stdev = {{stage1_stdev}}
+    Stage 2: average = {{stage2_average}} stdev = {{stage2_stdev}}
+    Stage 3: average = {{stage3_average}} stdev = {{stage3_stdev}}
+    Stage 4: average = {{stage4_average}} stdev = {{stage4_stdev}}
+    Stage 5: average = {{stage5_average}} stdev = {{stage5_stdev}}
+    Stage 6: average = {{stage6_average}} stdev = {{stage6_stdev}}

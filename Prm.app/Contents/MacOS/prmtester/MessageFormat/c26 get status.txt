@@ -1,0 +1,2 @@
+                   status: {{baux_fw_status}}
+OK

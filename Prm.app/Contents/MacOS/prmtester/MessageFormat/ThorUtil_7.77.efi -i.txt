@@ -1,0 +1,2 @@
+router version: {{TBT_FW_Version}}
+{{None Key}}

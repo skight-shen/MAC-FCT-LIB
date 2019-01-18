@@ -1,0 +1,2 @@
+
+{{syscfg_prd}}/{{syscfg_bld}}/{{syscfg_cfg}}

@@ -1,0 +1,3 @@
+Sweeping bus 10
+Bus 10 IC exists at Address: (7-bit) {{i2c10_addr_0_7b}} (8-bit) {{i2c10_addr_0}}
+Bus 10 IC exists at Address: (7-bit) {{i2c10_addr_1_7b}} (8-bit) {{i2c10_addr_1}}

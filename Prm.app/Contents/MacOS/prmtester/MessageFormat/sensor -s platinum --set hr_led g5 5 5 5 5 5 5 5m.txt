@@ -1,0 +1,3 @@
+
+Setting parameter 'hr_led' to 5 5 5 5 5 5 5 5 for 'platinum'
+OK

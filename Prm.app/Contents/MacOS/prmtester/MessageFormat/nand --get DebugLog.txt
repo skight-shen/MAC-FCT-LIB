@@ -1,0 +1,13 @@
+DebugLog = 
+     ID  LENGTH   VALUE
+      1       {{LENGTH1}} {{VALUE1}}
+      2       {{LENGTH2}} {{VALUE2}}
+      3       {{LENGTH3}} {{VALUE3}}
+      4       {{LENGTH4}} {{VALUE4}}
+      5       {{LENGTH5}} {{VALUE5}}
+      6       {{LENGTH6}} {{VALUE6}}
+      7       {{LENGTH7}} {{VALUE7}}
+      8       {{LENGTH8}} {{VALUE8}}
+      9       {{NOTHONG}}
+    117     560 {{nand_117_count}}
+   1932       {{ANYTHING}}

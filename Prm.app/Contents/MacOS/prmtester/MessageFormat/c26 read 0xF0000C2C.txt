@@ -1,0 +1,1 @@
+{{REGISTER}} => {{baux_reg_value}}

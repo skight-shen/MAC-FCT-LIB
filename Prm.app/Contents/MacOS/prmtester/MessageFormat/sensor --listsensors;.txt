@@ -1,0 +1,28 @@
+Name: accel
+Description: {{carbon_vendor}} {{carbon_part}} {{carbon1}}
+Installed: {{accel_installed}}
+
+Name: gyro
+Description: {{carbon_vendor2}} {{carbon2}}
+Installed: {{gyro_installed}}
+
+Name: compass
+Description: {{magnesium_vendor}} {{magnesium_part}} {{magnesium1}}
+Installed: {{compass_installed}}
+
+Name: lisa
+Description: Lisa
+Installed: {{lisa_installed}}
+
+Name: platinum
+Description: Platinum
+Installed: {{platinum_installed}}
+
+Name: touch
+Description: {{touch_part}} {{touch_orb}}
+Installed: {{touch_installed}}
+
+Name: pressure
+Description: {{phosphorus_vendor}} {{phosphorous}}
+Installed: {{pressure_installed}}
+OK

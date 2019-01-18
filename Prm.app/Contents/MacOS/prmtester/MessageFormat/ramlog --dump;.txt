@@ -1,0 +1,5 @@
+|| Collecting Data
+|| Standard Deviation is {{baux_freq_std}}
+|| Min Frequency is {{baux_freq_min}}
+|| Max Frequency is {{baux_freq_max}}
+

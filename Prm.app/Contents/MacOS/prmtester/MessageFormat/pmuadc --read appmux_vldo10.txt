@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel appmux_vldo10: {{appmux_vldo10}} mV

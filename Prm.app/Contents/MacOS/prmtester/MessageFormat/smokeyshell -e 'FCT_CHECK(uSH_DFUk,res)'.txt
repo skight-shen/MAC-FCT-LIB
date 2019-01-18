@@ -1,0 +1,16 @@
+shdfu : {{shdfu_result}}
+shdfu.sysdump : {{sysdump_result}}
+shdfu.sh : {{sh_result}}
+shdfu.sh.shloadfw : {{shloadfw_result}}
+shdfu.sh.shon : {{shon_result}}
+shdfu.sh.shcheckgpios : {{shcheckgpios_result}}
+shdfu.sh.shseping : {{shseping_result}}
+shdfu.sh.shslb : {{shslb_result}}
+shdfu.sh.if : {{if_result}}
+shdfu.sh.if.ifping : {{ifping_result}}
+shdfu.sh.if.iflb : {{iflb_result}}
+shdfu.sh.if.ifate : {{ifate_result}}
+shdfu.sh.shsby : {{shsby_result}}
+shdfu.sh.shoff : {{shoff_result}}
+shdfu.cleanup : {{cleanup_result}}
+

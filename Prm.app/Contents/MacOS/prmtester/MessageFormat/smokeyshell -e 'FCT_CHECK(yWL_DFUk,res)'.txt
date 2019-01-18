@@ -1,0 +1,20 @@
+wldfu : {{wldfu_result}}
+wldfu.sysdump : {{sysdump_result}}
+wldfu.wlan : {{wlan_result}}
+wldfu.wlan.wlloadfw : {{wlloadfw_result}}
+wldfu.wlan.wlreportvars : {{wlreportvars_result}}
+wldfu.wlan.wlrtrans : {{wlrtrans_result}}
+wldfu.wlan.wlwci : {{wlwci_result}}
+wldfu.wlan.wlhostwake : {{wlhostwake_result}}
+wldfu.wlan.wluart : {{wluart_result}}
+wldfu.wlan.wlcheckgpios : {{wlcheckgpios_result}}
+wldfu.wlan.wlgpiocheck : {{wlgpiocheck_result}}
+wldfu.bt : {{bt_result}}
+wldfu.bt.btloadfw : {{btloadfw_result}}
+wldfu.bt.btcheckgpios : {{btcheckgpios_result}}
+wldfu.bt.bthostwake : {{bthostwake_result}}
+wldfu.bt.btaudiolb : {{btaudiolb_result}}
+wldfu.bt.btds : {{btds_result}}
+wldfu.bt.btreportvars : {{btreportvars_result}}
+wldfu.cleanup : {{cleanup_result}}
+

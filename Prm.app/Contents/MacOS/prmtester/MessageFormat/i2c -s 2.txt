@@ -1,0 +1,2 @@
+Sweeping bus 2
+Bus 2 IC exists at Address: (7-bit) {{i2c2_addr_0_7b}} (8-bit) {{i2c2_addr_0}}

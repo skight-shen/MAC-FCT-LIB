@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2784686A20A753A7002510ED /* ATDeviceElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2784686920A753A7002510ED /* ATDeviceElements.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2784688B20A76557002510ED /* pytest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2784688A20A76557002510ED /* pytest.cpp */; };
+		2784689120A76AA0002510ED /* DataQ.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2784688D20A76AA0002510ED /* DataQ.mm */; };
+		2784689320A76AA0002510ED /* NanoHippoDev.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2784688F20A76AA0002510ED /* NanoHippoDev.mm */; };
+		278468A120A76F5F002510ED /* libDFUSecuredCB.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 278468A020A76F5F002510ED /* libDFUSecuredCB.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B20A2C8120B0520C000B4884 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B20A2C8020B0520B000B4884 /* GCDAsyncSocket.h */; };
+		B20A2C8320B05212000B4884 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B20A2C8220B05212000B4884 /* GCDAsyncSocket.m */; };
+		B20A2C8D20B05D53000B4884 /* SocketDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = B20A2C8C20B05D53000B4884 /* SocketDevice.mm */; };
+		B20A2C9120B05D75000B4884 /* SocketDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = B20A2C9020B05D75000B4884 /* SocketDevice.h */; };
+		B20A2C9320B05DAB000B4884 /* TcpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B20A2C9220B05DAB000B4884 /* TcpClient.h */; };
+		B20A2C9520B05DB6000B4884 /* TcpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B20A2C9420B05DB6000B4884 /* TcpClient.cpp */; };
+		B20A2C9720B05DCD000B4884 /* DataQueue.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B20A2C9620B05DCD000B4884 /* DataQueue.hpp */; };
+		B20A2C9920B05DE0000B4884 /* DataQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = B20A2C9820B05DE0000B4884 /* DataQueue.mm */; };
+		B28FDFD220A98B55000EEA4E /* Replier.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B28FDFCA20A98B54000EEA4E /* Replier.hpp */; };
+		B28FDFD320A98B55000EEA4E /* Publisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28FDFCB20A98B54000EEA4E /* Publisher.cpp */; };
+		B28FDFD420A98B55000EEA4E /* Publisher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B28FDFCC20A98B55000EEA4E /* Publisher.hpp */; };
+		B28FDFD520A98B55000EEA4E /* Subscriber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28FDFCD20A98B55000EEA4E /* Subscriber.cpp */; };
+		B28FDFD620A98B55000EEA4E /* Replier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28FDFCE20A98B55000EEA4E /* Replier.cpp */; };
+		B28FDFD720A98B55000EEA4E /* Requester.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B28FDFCF20A98B55000EEA4E /* Requester.hpp */; };
+		B28FDFD820A98B55000EEA4E /* Requester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B28FDFD020A98B55000EEA4E /* Requester.cpp */; };
+		B28FDFD920A98B55000EEA4E /* Subscriber.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B28FDFD120A98B55000EEA4E /* Subscriber.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2784686520A75334002510ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2784684A20A74635002510ED /* libALl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = libALl.dylib; path = libAll.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2784684D20A74635002510ED /* pytest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pytest.h; sourceTree = "<group>"; };
+		2784684F20A74635002510ED /* pytest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pytest.m; sourceTree = "<group>"; };
+		2784686920A753A7002510ED /* ATDeviceElements.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATDeviceElements.framework; path = ../../../../../../Library/Frameworks/ATDeviceElements.framework; sourceTree = "<group>"; };
+		2784688A20A76557002510ED /* pytest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pytest.cpp; sourceTree = "<group>"; };
+		2784688C20A76AA0002510ED /* DataQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataQ.h; sourceTree = "<group>"; };
+		2784688D20A76AA0002510ED /* DataQ.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataQ.mm; sourceTree = "<group>"; };
+		2784688E20A76AA0002510ED /* NanoHippoDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NanoHippoDev.h; sourceTree = "<group>"; };
+		2784688F20A76AA0002510ED /* NanoHippoDev.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NanoHippoDev.mm; sourceTree = "<group>"; };
+		278468A020A76F5F002510ED /* libDFUSecuredCB.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDFUSecuredCB.dylib; path = pytest/lib/libDFUSecuredCB.dylib; sourceTree = "<group>"; };
+		B20A2C8020B0520B000B4884 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ../../../../../TM_Source_Code/PwrSequence/PwrSequence/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B20A2C8220B05212000B4884 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ../../../../../TM_Source_Code/PwrSequence/PwrSequence/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B20A2C8C20B05D53000B4884 /* SocketDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SocketDevice.mm; path = ../../../../../TM_Source_Code/SocketDev/SocketDev/SocketDevice.mm; sourceTree = "<group>"; };
+		B20A2C9020B05D75000B4884 /* SocketDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketDevice.h; path = ../../../../../TM_Source_Code/SocketDev/SocketDev/SocketDevice.h; sourceTree = "<group>"; };
+		B20A2C9220B05DAB000B4884 /* TcpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TcpClient.h; path = ../../../../../TM_Source_Code/Common/socket/TcpClient.h; sourceTree = "<group>"; };
+		B20A2C9420B05DB6000B4884 /* TcpClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TcpClient.cpp; path = ../../../../../TM_Source_Code/Common/socket/TcpClient.cpp; sourceTree = "<group>"; };
+		B20A2C9620B05DCD000B4884 /* DataQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DataQueue.hpp; path = ../../../../../TM_Source_Code/Common/DataQueue.hpp; sourceTree = "<group>"; };
+		B20A2C9820B05DE0000B4884 /* DataQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DataQueue.mm; path = ../../../../../TM_Source_Code/Common/DataQueue.mm; sourceTree = "<group>"; };
+		B28FDFCA20A98B54000EEA4E /* Replier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Replier.hpp; path = zmq/Replier.hpp; sourceTree = "<group>"; };
+		B28FDFCB20A98B54000EEA4E /* Publisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Publisher.cpp; path = zmq/Publisher.cpp; sourceTree = "<group>"; };
+		B28FDFCC20A98B55000EEA4E /* Publisher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Publisher.hpp; path = zmq/Publisher.hpp; sourceTree = "<group>"; };
+		B28FDFCD20A98B55000EEA4E /* Subscriber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Subscriber.cpp; path = zmq/Subscriber.cpp; sourceTree = "<group>"; };
+		B28FDFCE20A98B55000EEA4E /* Replier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Replier.cpp; path = zmq/Replier.cpp; sourceTree = "<group>"; };
+		B28FDFCF20A98B55000EEA4E /* Requester.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Requester.hpp; path = zmq/Requester.hpp; sourceTree = "<group>"; };
+		B28FDFD020A98B55000EEA4E /* Requester.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Requester.cpp; path = zmq/Requester.cpp; sourceTree = "<group>"; };
+		B28FDFD120A98B55000EEA4E /* Subscriber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Subscriber.hpp; path = zmq/Subscriber.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2784684720A74635002510ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2784686A20A753A7002510ED /* ATDeviceElements.framework in Frameworks */,
+				278468A120A76F5F002510ED /* libDFUSecuredCB.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2784684120A74635002510ED = {
+			isa = PBXGroup;
+			children = (
+				2784684C20A74635002510ED /* pytest */,
+				2784684B20A74635002510ED /* Products */,
+				278468A020A76F5F002510ED /* libDFUSecuredCB.dylib */,
+				2784686020A7523D002510ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2784684B20A74635002510ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2784684A20A74635002510ED /* libALl.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2784684C20A74635002510ED /* pytest */ = {
+			isa = PBXGroup;
+			children = (
+				B28FDFC820A988BB000EEA4E /* mq */,
+				2784688C20A76AA0002510ED /* DataQ.h */,
+				2784688D20A76AA0002510ED /* DataQ.mm */,
+				2784688E20A76AA0002510ED /* NanoHippoDev.h */,
+				2784688F20A76AA0002510ED /* NanoHippoDev.mm */,
+				B20A2C8020B0520B000B4884 /* GCDAsyncSocket.h */,
+				B20A2C8220B05212000B4884 /* GCDAsyncSocket.m */,
+				B20A2C9020B05D75000B4884 /* SocketDevice.h */,
+				B20A2C8C20B05D53000B4884 /* SocketDevice.mm */,
+				B20A2C9220B05DAB000B4884 /* TcpClient.h */,
+				B20A2C9420B05DB6000B4884 /* TcpClient.cpp */,
+				B20A2C9620B05DCD000B4884 /* DataQueue.hpp */,
+				B20A2C9820B05DE0000B4884 /* DataQueue.mm */,
+				2784684D20A74635002510ED /* pytest.h */,
+				2784688A20A76557002510ED /* pytest.cpp */,
+				2784684F20A74635002510ED /* pytest.m */,
+			);
+			path = pytest;
+			sourceTree = "<group>";
+		};
+		2784686020A7523D002510ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2784686920A753A7002510ED /* ATDeviceElements.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B28FDFC820A988BB000EEA4E /* mq */ = {
+			isa = PBXGroup;
+			children = (
+				B28FDFCB20A98B54000EEA4E /* Publisher.cpp */,
+				B28FDFCC20A98B55000EEA4E /* Publisher.hpp */,
+				B28FDFCE20A98B55000EEA4E /* Replier.cpp */,
+				B28FDFCA20A98B54000EEA4E /* Replier.hpp */,
+				B28FDFD020A98B55000EEA4E /* Requester.cpp */,
+				B28FDFCF20A98B55000EEA4E /* Requester.hpp */,
+				B28FDFCD20A98B55000EEA4E /* Subscriber.cpp */,
+				B28FDFD120A98B55000EEA4E /* Subscriber.hpp */,
+			);
+			path = mq;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2784684820A74635002510ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20A2C9120B05D75000B4884 /* SocketDevice.h in Headers */,
+				B28FDFD420A98B55000EEA4E /* Publisher.hpp in Headers */,
+				B28FDFD220A98B55000EEA4E /* Replier.hpp in Headers */,
+				B20A2C9720B05DCD000B4884 /* DataQueue.hpp in Headers */,
+				B20A2C9320B05DAB000B4884 /* TcpClient.h in Headers */,
+				B28FDFD920A98B55000EEA4E /* Subscriber.hpp in Headers */,
+				B28FDFD720A98B55000EEA4E /* Requester.hpp in Headers */,
+				B20A2C8120B0520C000B4884 /* GCDAsyncSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2784684920A74635002510ED /* All */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2784685320A74635002510ED /* Build configuration list for PBXNativeTarget "All" */;
+			buildPhases = (
+				2784684620A74635002510ED /* Sources */,
+				2784684720A74635002510ED /* Frameworks */,
+				2784684820A74635002510ED /* Headers */,
+				2784686520A75334002510ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = All;
+			productName = pytest;
+			productReference = 2784684A20A74635002510ED /* libALl.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2784684220A74635002510ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mental;
+				TargetAttributes = {
+					2784684920A74635002510ED = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9X36Z7J75A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2784684520A74635002510ED /* Build configuration list for PBXProject "All" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2784684120A74635002510ED;
+			productRefGroup = 2784684B20A74635002510ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2784684920A74635002510ED /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2784684620A74635002510ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28FDFD320A98B55000EEA4E /* Publisher.cpp in Sources */,
+				B28FDFD620A98B55000EEA4E /* Replier.cpp in Sources */,
+				2784688B20A76557002510ED /* pytest.cpp in Sources */,
+				B28FDFD520A98B55000EEA4E /* Subscriber.cpp in Sources */,
+				2784689120A76AA0002510ED /* DataQ.mm in Sources */,
+				B28FDFD820A98B55000EEA4E /* Requester.cpp in Sources */,
+				B20A2C8320B05212000B4884 /* GCDAsyncSocket.m in Sources */,
+				2784689320A76AA0002510ED /* NanoHippoDev.mm in Sources */,
+				B20A2C8D20B05D53000B4884 /* SocketDevice.mm in Sources */,
+				B20A2C9920B05DE0000B4884 /* DataQueue.mm in Sources */,
+				B20A2C9520B05DB6000B4884 /* TcpClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2784685120A74635002510ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq;
+				LIBRARY_SEARCH_PATHS = /Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lzmq";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2784685220A74635002510ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq;
+				LIBRARY_SEARCH_PATHS = /Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lzmq";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2784685420A74635002510ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = 9X36Z7J75A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/prmeasure/boost_1_67_0,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pytest/lib",
+					/Users/prmeasure/boost_1_67_0/stage/lib,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/lib,
+				);
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		2784685520A74635002510ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = 9X36Z7J75A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/prmeasure/boost_1_67_0,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pytest/lib",
+					/Users/prmeasure/boost_1_67_0/stage/lib,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/lib,
+				);
+				PRODUCT_NAME = All;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2784684520A74635002510ED /* Build configuration list for PBXProject "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2784685120A74635002510ED /* Debug */,
+				2784685220A74635002510ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2784685320A74635002510ED /* Build configuration list for PBXNativeTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2784685420A74635002510ED /* Debug */,
+				2784685520A74635002510ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2784684220A74635002510ED /* Project object */;
+}

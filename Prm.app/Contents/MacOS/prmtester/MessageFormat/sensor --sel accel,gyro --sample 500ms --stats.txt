@@ -1,0 +1,26 @@
+
+Stats:
+
+accel:
+	# of samples captured: {{accel_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{accel_invalid_sample_count}}
+	calculated odr: {{accel_odr}}Hz
+	average: X = {{accel_average_x}}, Y = {{accel_average_y}}, Z = {{accel_average_z}}, T = {{accel_temp}}
+	std-dev: X = {{accel_stdev_x}}, Y = {{accel_stdev_y}}, Z = {{accel_stdev_z}}, T = {{accel_temp_stdev}}
+	rms:     X = {{accel_rms_x}}, Y = {{accel_rms_y}}, Z = {{accel_rms_z}}, T = {{accel_temp_rms}}
+	min: X = {{accel_min_x}}, Y = {{accel_min_y}}, Z = {{accel_min_z}}, T = {{accel_temp_min}}
+	max: X = {{accel_max_x}}, Y = {{accel_max_y}}, Z = {{accel_max_z}}, T = {{accel_temp_max}}
+	range: X = {{accel_range_x}}, Y = {{accel_range_y}}, Z = {{accel_range_z}}, T = {{accel_temp_range}}
+	median: X = {{accel_median_x}}, Y = {{accel_median_y}}, Z = {{accel_median_z}}, T = {{accel_temp_median}}
+
+gyro:
+	# of samples captured: {{gyro_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{gyro_invalid_sample_count}}
+	calculated odr: {{gyro_odr}}Hz
+	average: X = {{gyro_average_x}}, Y = {{gyro_average_y}}, Z = {{gyro_average_z}}, T = {{gyro_temp}}
+	std-dev: X = {{gyro_stdev_x}}, Y = {{gyro_stdev_y}}, Z = {{gyro_stdev_z}}, T = {{gyro_temp_stdev}}
+	rms:     X = {{gyro_rms_x}}, Y = {{gyro_rms_y}}, Z = {{gyro_rms_z}}, T = {{gyro_temp_rms}}
+	min: X = {{gyro_min_x}}, Y = {{gyro_min_y}}, Z = {{gyro_min_z}}, T = {{gyro_temp_min}}
+	max: X = {{gyro_max_x}}, Y = {{gyro_max_y}}, Z = {{gyro_max_z}}, T = {{gyro_temp_max}}
+	range: X = {{gyro_range_x}}, Y = {{gyro_range_y}}, Z = {{gyro_range_z}}, T = {{gyro_temp_range}}
+	median: X = {{gyro_median_x}}, Y = {{gyro_median_y}}, Z = {{gyro_median_z}}, T = {{gyro_temp_median}}

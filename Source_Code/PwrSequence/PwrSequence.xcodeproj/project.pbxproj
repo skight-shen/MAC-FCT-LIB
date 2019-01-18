@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1C5DD81E024A6700912863 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1C5DD61E024A6700912863 /* GCDAsyncSocket.h */; };
+		8D1C5DD91E024A6700912863 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C5DD71E024A6700912863 /* GCDAsyncSocket.m */; };
+		8D1D41E01DE20F6100069BB8 /* PwrSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D41DF1DE20F6100069BB8 /* PwrSequence.h */; };
+		8D1D42001DE5355000069BB8 /* Publisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D41FE1DE5355000069BB8 /* Publisher.cpp */; };
+		8D1D42011DE5355000069BB8 /* Publisher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D41FF1DE5355000069BB8 /* Publisher.hpp */; };
+		8D1D42101DE535EF00069BB8 /* libZMQX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D420F1DE535EF00069BB8 /* libZMQX.a */; };
+		8D1D421E1DE5361F00069BB8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D421D1DE5361F00069BB8 /* libicucore.tbd */; };
+		8D1D42201DE5362C00069BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D421F1DE5362C00069BB8 /* Foundation.framework */; };
+		8D1D42221DE5364800069BB8 /* NetFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D42211DE5364800069BB8 /* NetFS.framework */; };
+		8D1D42241DE5366200069BB8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D42231DE5366200069BB8 /* Security.framework */; };
+		8D1D42261DE5367100069BB8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D42251DE5367100069BB8 /* AppKit.framework */; };
+		8D1D42281DE536F900069BB8 /* PwrSequence.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D42271DE536F900069BB8 /* PwrSequence.mm */; };
+		8D1D422B1DE5373400069BB8 /* CPwrSeq.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D42291DE5373400069BB8 /* CPwrSeq.h */; };
+		8D1D422F1DE5375200069BB8 /* PwrDataParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D422D1DE5375200069BB8 /* PwrDataParse.h */; };
+		8D1D42331DE5376E00069BB8 /* PwrClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D1D42311DE5376E00069BB8 /* PwrClient.h */; };
+		8D1D42381DE5379900069BB8 /* CPwrSeq.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D42351DE5379900069BB8 /* CPwrSeq.mm */; };
+		8D1D42391DE5379900069BB8 /* PwrClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D42361DE5379900069BB8 /* PwrClient.mm */; };
+		8D1D423A1DE5379900069BB8 /* PwrDataParse.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D42371DE5379900069BB8 /* PwrDataParse.mm */; };
+		8D1D423B1DE5383200069BB8 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D42161DE5360300069BB8 /* liblua.a */; };
+		8D1D423C1DE5383200069BB8 /* libtolua++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D421C1DE5360B00069BB8 /* libtolua++.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D1D42151DE5360300069BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D1D42111DE5360300069BB8 /* lua.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50AEED4919050BE20035D775;
+			remoteInfo = lua;
+		};
+		8D1D421B1DE5360B00069BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D1D42171DE5360B00069BB8 /* tolua++.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50AEEE23190514210035D775;
+			remoteInfo = "tolua++";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D1C5DD61E024A6700912863 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8D1C5DD71E024A6700912863 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8D1D41DC1DE20F6100069BB8 /* libPwrSequence.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libPwrSequence.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1D41DF1DE20F6100069BB8 /* PwrSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PwrSequence.h; sourceTree = "<group>"; };
+		8D1D41FE1DE5355000069BB8 /* Publisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Publisher.cpp; path = ../Common/zmq/Publisher.cpp; sourceTree = "<group>"; };
+		8D1D41FF1DE5355000069BB8 /* Publisher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Publisher.hpp; path = ../Common/zmq/Publisher.hpp; sourceTree = "<group>"; };
+		8D1D42081DE535CD00069BB8 /* pwrseq.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pwrseq.lua; sourceTree = "<group>"; };
+		8D1D420F1DE535EF00069BB8 /* libZMQX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZMQX.a; path = "../../../../Library/Developer/Xcode/DerivedData/j137_platform-glxwkormchdveoaonnsthwwhnluv/Build/Products/Debug/libZMQX.a"; sourceTree = "<group>"; };
+		8D1D42111DE5360300069BB8 /* lua.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = lua.xcodeproj; path = ../Lua/lua.xcodeproj; sourceTree = "<group>"; };
+		8D1D42171DE5360B00069BB8 /* tolua++.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "tolua++.xcodeproj"; path = "../ToLua/tolua++.xcodeproj"; sourceTree = "<group>"; };
+		8D1D421D1DE5361F00069BB8 /* libicucore.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libicucore.tbd; sourceTree = DEVELOPER_DIR; };
+		8D1D421F1DE5362C00069BB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D1D42211DE5364800069BB8 /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/NetFS.framework; sourceTree = DEVELOPER_DIR; };
+		8D1D42231DE5366200069BB8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8D1D42251DE5367100069BB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D1D42271DE536F900069BB8 /* PwrSequence.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PwrSequence.mm; sourceTree = "<group>"; };
+		8D1D42291DE5373400069BB8 /* CPwrSeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPwrSeq.h; sourceTree = "<group>"; };
+		8D1D422D1DE5375200069BB8 /* PwrDataParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwrDataParse.h; sourceTree = "<group>"; };
+		8D1D42311DE5376E00069BB8 /* PwrClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwrClient.h; sourceTree = "<group>"; };
+		8D1D42351DE5379900069BB8 /* CPwrSeq.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPwrSeq.mm; sourceTree = "<group>"; };
+		8D1D42361DE5379900069BB8 /* PwrClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PwrClient.mm; sourceTree = "<group>"; };
+		8D1D42371DE5379900069BB8 /* PwrDataParse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PwrDataParse.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1D41D91DE20F6100069BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1D423B1DE5383200069BB8 /* liblua.a in Frameworks */,
+				8D1D423C1DE5383200069BB8 /* libtolua++.a in Frameworks */,
+				8D1D42101DE535EF00069BB8 /* libZMQX.a in Frameworks */,
+				8D1D42241DE5366200069BB8 /* Security.framework in Frameworks */,
+				8D1D42201DE5362C00069BB8 /* Foundation.framework in Frameworks */,
+				8D1D42261DE5367100069BB8 /* AppKit.framework in Frameworks */,
+				8D1D421E1DE5361F00069BB8 /* libicucore.tbd in Frameworks */,
+				8D1D42221DE5364800069BB8 /* NetFS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1D41D31DE20F6100069BB8 = {
+			isa = PBXGroup;
+			children = (
+				8D1D41FC1DE5352A00069BB8 /* frameworks */,
+				8D1D41FB1DE5351F00069BB8 /* zmq_pub */,
+				8D1D41DE1DE20F6100069BB8 /* PwrSequence */,
+				8D1D41DD1DE20F6100069BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1D41DD1DE20F6100069BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D41DC1DE20F6100069BB8 /* libPwrSequence.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1D41DE1DE20F6100069BB8 /* PwrSequence */ = {
+			isa = PBXGroup;
+			children = (
+				8D1C5DD61E024A6700912863 /* GCDAsyncSocket.h */,
+				8D1C5DD71E024A6700912863 /* GCDAsyncSocket.m */,
+				8D1D41DF1DE20F6100069BB8 /* PwrSequence.h */,
+				8D1D42271DE536F900069BB8 /* PwrSequence.mm */,
+				8D1D42081DE535CD00069BB8 /* pwrseq.lua */,
+				8D1D42291DE5373400069BB8 /* CPwrSeq.h */,
+				8D1D42351DE5379900069BB8 /* CPwrSeq.mm */,
+				8D1D422D1DE5375200069BB8 /* PwrDataParse.h */,
+				8D1D42371DE5379900069BB8 /* PwrDataParse.mm */,
+				8D1D42311DE5376E00069BB8 /* PwrClient.h */,
+				8D1D42361DE5379900069BB8 /* PwrClient.mm */,
+			);
+			path = PwrSequence;
+			sourceTree = "<group>";
+		};
+		8D1D41FB1DE5351F00069BB8 /* zmq_pub */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D41FE1DE5355000069BB8 /* Publisher.cpp */,
+				8D1D41FF1DE5355000069BB8 /* Publisher.hpp */,
+			);
+			name = zmq_pub;
+			sourceTree = "<group>";
+		};
+		8D1D41FC1DE5352A00069BB8 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D42171DE5360B00069BB8 /* tolua++.xcodeproj */,
+				8D1D42111DE5360300069BB8 /* lua.xcodeproj */,
+				8D1D420F1DE535EF00069BB8 /* libZMQX.a */,
+				8D1D421D1DE5361F00069BB8 /* libicucore.tbd */,
+				8D1D42251DE5367100069BB8 /* AppKit.framework */,
+				8D1D42231DE5366200069BB8 /* Security.framework */,
+				8D1D42211DE5364800069BB8 /* NetFS.framework */,
+				8D1D421F1DE5362C00069BB8 /* Foundation.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		8D1D42121DE5360300069BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D42161DE5360300069BB8 /* liblua.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1D42181DE5360B00069BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D421C1DE5360B00069BB8 /* libtolua++.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1D41DA1DE20F6100069BB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1D42331DE5376E00069BB8 /* PwrClient.h in Headers */,
+				8D1D41E01DE20F6100069BB8 /* PwrSequence.h in Headers */,
+				8D1D42011DE5355000069BB8 /* Publisher.hpp in Headers */,
+				8D1C5DD81E024A6700912863 /* GCDAsyncSocket.h in Headers */,
+				8D1D422B1DE5373400069BB8 /* CPwrSeq.h in Headers */,
+				8D1D422F1DE5375200069BB8 /* PwrDataParse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1D41DB1DE20F6100069BB8 /* PwrSequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1D41E51DE20F6100069BB8 /* Build configuration list for PBXNativeTarget "PwrSequence" */;
+			buildPhases = (
+				8D1D41D81DE20F6100069BB8 /* Sources */,
+				8D1D41D91DE20F6100069BB8 /* Frameworks */,
+				8D1D41DA1DE20F6100069BB8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PwrSequence;
+			productName = PwrSequence;
+			productReference = 8D1D41DC1DE20F6100069BB8 /* libPwrSequence.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D1D41D41DE20F6100069BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AustinShih;
+				TargetAttributes = {
+					8D1D41DB1DE20F6100069BB8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D1D41D71DE20F6100069BB8 /* Build configuration list for PBXProject "PwrSequence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D1D41D31DE20F6100069BB8;
+			productRefGroup = 8D1D41DD1DE20F6100069BB8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D1D42121DE5360300069BB8 /* Products */;
+					ProjectRef = 8D1D42111DE5360300069BB8 /* lua.xcodeproj */;
+				},
+				{
+					ProductGroup = 8D1D42181DE5360B00069BB8 /* Products */;
+					ProjectRef = 8D1D42171DE5360B00069BB8 /* tolua++.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1D41DB1DE20F6100069BB8 /* PwrSequence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8D1D42161DE5360300069BB8 /* liblua.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblua.a;
+			remoteRef = 8D1D42151DE5360300069BB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8D1D421C1DE5360B00069BB8 /* libtolua++.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libtolua++.a";
+			remoteRef = 8D1D421B1DE5360B00069BB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1D41D81DE20F6100069BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1C5DD91E024A6700912863 /* GCDAsyncSocket.m in Sources */,
+				8D1D42281DE536F900069BB8 /* PwrSequence.mm in Sources */,
+				8D1D42001DE5355000069BB8 /* Publisher.cpp in Sources */,
+				8D1D42381DE5379900069BB8 /* CPwrSeq.mm in Sources */,
+				8D1D42391DE5379900069BB8 /* PwrClient.mm in Sources */,
+				8D1D423A1DE5379900069BB8 /* PwrDataParse.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D1D41E31DE20F6100069BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D1D41E41DE20F6100069BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D1D41E61DE20F6100069BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_TESTABILITY = NO;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+				);
+				INSTALL_PATH = "@loader_path";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestManager-ddxaohofgwnfincefllawjfxtxod/Build/Products/Debug",
+					"$(PROJECT_DIR)",
+					"/Users/prmeasure/lib/xcode/ZMQX-feniugmjfzltrsezyjlmvxbavjvp/Build/Products/Debug/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D1D41E71DE20F6100069BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+				);
+				INSTALL_PATH = "@loader_path";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestManager-ddxaohofgwnfincefllawjfxtxod/Build/Products/Debug",
+					"$(PROJECT_DIR)",
+					"/Users/prmeasure/lib/xcode/ZMQX-feniugmjfzltrsezyjlmvxbavjvp/Build/Products/Debug/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1D41D71DE20F6100069BB8 /* Build configuration list for PBXProject "PwrSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1D41E31DE20F6100069BB8 /* Debug */,
+				8D1D41E41DE20F6100069BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1D41E51DE20F6100069BB8 /* Build configuration list for PBXNativeTarget "PwrSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1D41E61DE20F6100069BB8 /* Debug */,
+				8D1D41E71DE20F6100069BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D1D41D41DE20F6100069BB8 /* Project object */;
+}

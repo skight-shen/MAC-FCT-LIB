@@ -1,0 +1,2 @@
+0xF000002C => {{bauxite_chip_rev}}
+OK

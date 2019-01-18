@@ -1,0 +1,3 @@
+platinum:
+	lcosc_div = {{LCOSC_DIV}}
+OK

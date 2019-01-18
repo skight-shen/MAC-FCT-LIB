@@ -1,0 +1,5 @@
+PPN Nand
+Unique ID:
+CE 00 - Die 00: {{nanduid_die0}} 
+CE 00 - Die 01: {{nanduid_die1}}
+

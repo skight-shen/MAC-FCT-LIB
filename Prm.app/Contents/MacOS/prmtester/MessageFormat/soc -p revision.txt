@@ -1,0 +1,2 @@
+{{noneed2}}revision: {{soc_revision1}}
+{{noneed}}

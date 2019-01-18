@@ -1,0 +1,12 @@
+Channel 4:
+Using {{no_samples}} bins, Peak Bin= {{fft_peak_bin}}; Peak Magnitude={{fft_peak_magnitude}} FS; Frequency: {{fft_peak_frequency}} /- {{fft_peak_width}} Hz
+DC Magnitude={{dc_magnitude}} FS
+Signal Bins={{signal_bins}}
+SINAD={{sinad}} dBFS
+Peak Power:{{peak_power}}dBFS
+Signal Power: {{signal_power}} dBFS
+Noise Power: {{noise_power}} dBFS
+Average Noise PSD: {{average_noise_PSD}} dBFS
+Noise Margin: {{noise_margin}} dBFS
+THDN: {{thdn}} dB
+Channel 5:

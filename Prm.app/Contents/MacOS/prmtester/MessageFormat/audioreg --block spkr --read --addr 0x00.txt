@@ -1,0 +1,3 @@
+spkr:
+{{r_woofer_id_addr}} = {{r_speaker_id}}
+OK

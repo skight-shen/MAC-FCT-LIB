@@ -1,0 +1,9 @@
+
+Stats:
+
+pressure:
+	# of samples captured: {{phosphorus_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{phosphorus_invalid_sample_count}}
+	calculated odr: {{phosphorus_odr}}Hz
+	average: pressure = {{phosphorus_average}}, temp = {{phosphorus_temp}}
+	std-dev: pressure = {{phosphorus_stdev}}, temp = {{phosphorus_temp_stdev}}

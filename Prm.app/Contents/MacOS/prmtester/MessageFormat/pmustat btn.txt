@@ -1,0 +1,4 @@
+PMU Status test
+BTN1_MENU: {{button1}}
+BTN2_HOLD: {{button2}}
+BTN3_RNGR_AB: {{button3}}

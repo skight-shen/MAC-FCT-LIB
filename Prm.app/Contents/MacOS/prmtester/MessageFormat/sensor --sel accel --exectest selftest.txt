@@ -1,0 +1,15 @@
+Capturing {{accel_self_test_sample_count}} samples in normal mode (ACC0)...
+norm-mode: x = {{accel_self_test_normal_x}}, y = {{accel_self_test_normal_y}}, z = {{accel_self_test_normal_z}}
+
+Capturing {{accel_self_test_sample_count_pos}} samples with positive excitation (ACC1)...
+pos-mode: x = {{accel_self_test_pos_output_x}}, y = {{accel_self_test_pos_output_y}}, z = {{accel_self_test_pos_output_z}}
+pos-response: x = {{accel_self_test_pos_x}}, y = {{accel_self_test_pos_y}}, z = {{accel_self_test_pos_z}}
+limits: {{accel_self_test_pos_lsl_x}} <= X <= {{accel_self_test_pos_usl_x}}, {{accel_self_test_pos_lsl_y}} <= Y <= {{accel_self_test_pos_usl_y}}, {{accel_self_test_pos_lsl_z}} <= Z <= {{accel_self_test_pos_usl_z}}
+pos-result: {{accel_self_test_pos_result}}
+
+Capturing {{accel_self_test_sample_count_neg}} samples with negative excitation (ACC2)...
+neg-mode: x = {{accel_self_test_neg_output_x}}, y = {{accel_self_test_neg_output_y}}, z = {{accel_self_test_neg_output_z}}
+neg-response: x = {{accel_self_test_neg_x}}, y = {{accel_self_test_neg_y}}, z = {{accel_self_test_neg_z}}
+limits: {{accel_self_test_neg_lsl_x}} <= X <= {{accel_self_test_neg_usl_x}}, {{accel_self_test_neg_lsl_y}} <= Y <= {{accel_self_test_neg_usl_y}}, {{accel_self_test_neg_lsl_z}} <= Z <= {{accel_self_test_neg_usl_z}}
+neg-result: {{accel_self_test_neg_result}}
+test-result: {{accel_self_test_result}}

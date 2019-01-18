@@ -1,0 +1,14 @@
+
+Stats:
+
+pressure-fct:
+	# of samples captured: {{phosphorus_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{phosphorus_invalid_sample_count}}
+	calculated odr: {{phosphorus_odr}}Hz
+	average: pressure = {{phosphorus_average}}, temp = {{phosphorus_temp}}
+	std-dev: pressure = {{phosphorus_stdev}}, temp = {{phosphorus_temp_stdev}}
+	rms:     pressure = {{phosphorus_rms}}, temp = {{phosphorus_temp_rms}}
+	min: pressure = {{phosphorus_min}}, temp = {{phosphorus_temp_min}}
+	max: pressure = {{phosphorus_max}}, temp = {{phosphorus_temp_max}}
+	range: pressure = {{phosphorus_range}}, temp = {{phosphorus_temp_range}}
+	median: pressure = {{phosphorus_median}}, temp = {{phosphorus_temp_median}}

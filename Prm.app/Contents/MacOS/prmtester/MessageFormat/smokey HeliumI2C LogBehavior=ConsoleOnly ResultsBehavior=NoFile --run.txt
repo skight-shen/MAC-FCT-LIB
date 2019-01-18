@@ -1,0 +1,4 @@
+helium_temp_stdev = {{helium_temp_stdev}}
+helium_rh_stdev = {{helium_rh_stdev}}
+helium_rh_mean = {{helium_rh_mean}}
+helium_temp_mean = {{helium_temp_mean}}

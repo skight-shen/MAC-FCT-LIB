@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ibuck3: {{ibuck3_avg10}} mA

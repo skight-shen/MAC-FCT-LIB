@@ -1,0 +1,2 @@
+SoC GPIO[1,94] = {{aoprt_to_jasper_reset_val}}
+OK

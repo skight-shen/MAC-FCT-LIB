@@ -1,0 +1,2 @@
+Key Read "ID0R":
+00000000: {{smc_read_ID0R}}                                     |

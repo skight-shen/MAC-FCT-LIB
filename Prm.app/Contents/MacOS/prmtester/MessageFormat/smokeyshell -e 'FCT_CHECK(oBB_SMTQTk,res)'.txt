@@ -1,0 +1,23 @@
+bbsmtqt : {{bbsmtqt_result}}
+bbsmtqt.baseband : {{baseband_result}}
+bbsmtqt.baseband.bbon : {{bbon_result}}
+bbsmtqt.baseband.bbloadfw : {{bbloadfw_result}}
+bbsmtqt.baseband.bbcheckcalibration : {{bbcheckcalibration_result}}
+bbsmtqt.baseband.bbsim : {{bbsim_result}}
+bbsmtqt.baseband.gpson : {{gpson_result}}
+bbsmtqt.baseband.gpsloadfw : {{gpsloadfw_result}}
+bbsmtqt.wlan : {{wlan_result}}
+bbsmtqt.wlan.wlon : {{wlon_result}}
+bbsmtqt.wlan.wlloadfw : {{wlloadfw_result}}
+bbsmtqt.wlan.wlds : {{wlds_result}}
+bbsmtqt.wlan.wluart : {{wluart_result}}
+bbsmtqt.sh : {{sh_result}}
+bbsmtqt.sh.shseping : {{shseping_result}}
+bbsmtqt.sh.shswp : {{shswp_result}}
+bbsmtqt.sh.if : {{if_result}}
+bbsmtqt.sh.if.ifping : {{ifping_result}}
+bbsmtqt.sh.if.iflb : {{iflb_result}}
+bbsmtqt.sh.shsby : {{shsby_result}}
+bbsmtqt.sh.shoff : {{shoff_result}}
+bbsmtqt.cleanup : {{cleanup_result}}
+

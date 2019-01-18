@@ -1,0 +1,34 @@
+PPN = YES
+FCE0 = {{FEC0}}
+FCE1 = not present
+FCE2 = not present
+FCE3 = not present
+FCE4 = not present
+FCE5 = not present
+FCE6 = not present
+FCE7 = not present
+FCE8 = not present
+FCE9 = not present
+FCE10 = not present
+FCE11 = not present
+FCE12 = not present
+FCE13 = not present
+FCE14 = not present
+FCE15 = not present
+FCE16 = not present
+FCE17 = not present
+FCE18 = not present
+FCE19 = not present
+FCE20 = not present
+FCE21 = not present
+FCE22 = not present
+FCE23 = not present
+FCE24 = not present
+FCE25 = not present
+FCE26 = not present
+FCE27 = not present
+FCE28 = not present
+FCE29 = not present
+FCE30 = not present
+FCE31 = not present
+NANDID = {{nand_id}}; NANDCS = 00000000000000000000000000000001 = 0x0001 = 1; NAND SIZE :{{nand_size}}

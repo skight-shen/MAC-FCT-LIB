@@ -1,0 +1,8 @@
+Cpu State     :{{cpu_state}}
+Cpu Frequency :{{cpu_freq}}Hz
+Cpu Voltage   :{{cpu_volt}}mV
+SoC State     :{{soc_state}}
+SoC Voltage   :{{buck0_bin_hv}}mV
+Gpu State     :{{gpu_state}}
+DDR Frequency :{{ddr_freq}}MHz
+Sram Voltage  :{{buck1_bin_hv}}mV

@@ -1,0 +1,2 @@
+Key Read "MFIC":
+00000000: {{smc read MFIC}}                                     |

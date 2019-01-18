@@ -1,0 +1,1 @@
+PMU GPIO[5] = {{pmu_enable_PP5V_G3S_pwrgood}}

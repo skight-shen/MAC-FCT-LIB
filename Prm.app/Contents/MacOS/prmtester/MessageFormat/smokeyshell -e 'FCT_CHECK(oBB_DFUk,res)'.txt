@@ -1,0 +1,22 @@
+bbdfu : {{bbdfu_result}}
+bbdfu.sysdump : {{sysdump_result}}
+bbdfu.sysdump.socsysdump : {{socsysdump_result}}
+bbdfu.sysdump.bblibsysdump : {{bblibsysdump_result}}
+bbdfu.baseband : {{baseband_result}}
+bbdfu.baseband.bbloadfw : {{bbloadfw_result}}
+bbdfu.baseband.bbreportvars : {{bbreportvars_result}}
+bbdfu.baseband.bbaudiolb : {{bbaudiolb_result}}
+bbdfu.baseband.bbhsic : {{bbhsic_result}}
+bbdfu.baseband.bbrtrans : {{bbrtrans_result}}
+bbdfu.baseband.bbvinyl : {{bbvinyl_result}}
+bbdfu.baseband.bboscarlb : {{bboscarlb_result}}
+bbdfu.baseband.bbsim : {{bbsim_result}}
+bbdfu.baseband.bbnvrestore : {{bbnvrestore_result}}
+bbdfu.gps : {{gps_result}}
+bbdfu.gps.gpson : {{gpson_result}}
+bbdfu.gps.gpsloadfw : {{gpsloadfw_result}}
+bbdfu.gps.gpsping : {{gpsping_result}}
+bbdfu.gps.gpshostwake : {{gpshostwake_result}}
+bbdfu.gps.gpsoff : {{gpsoff_result}}
+bbdfu.bbcleanup : {{bbcleanup_result}}
+

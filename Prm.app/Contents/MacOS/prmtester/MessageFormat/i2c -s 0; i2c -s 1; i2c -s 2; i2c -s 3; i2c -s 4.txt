@@ -1,0 +1,10 @@
+Sweeping bus 0
+Bus 0 IC exists at Address: (7-bit) {{i2c0_addr_0_7b}} (8-bit) {{i2c0_addr_0}}
+Sweeping bus 1
+Bus 1 IC exists at Address: (7-bit) {{i2c1_addr_0_7b}} (8-bit) {{i2c1_addr_0}}
+Sweeping bus 2
+Bus 2 IC exists at Address: (7-bit) {{i2c2_addr_0_7b}} (8-bit) {{i2c2_addr_0}}
+Sweeping bus 3
+Bus 3 IC exists at Address: (7-bit) {{i2c3_addr_0_7b}} (8-bit) {{i2c3_addr_0}}
+Sweeping bus 4
+Bus 4 IC exists at Address: (7-bit) {{i2c4_addr_0_7b}} (8-bit) {{i2c4_addr_0}}

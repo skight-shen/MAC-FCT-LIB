@@ -1,0 +1,14 @@
+graphite_accel_z_mean = {{accel_average_z}}
+graphite_temperature_mean = {{gyro_temp}}
+graphite_gyro_y_mean = {{gyro_average_y}}
+graphite_gyro_y_stdev = {{gyro_stdev_y}}
+graphite_gyro_z_mean = {{gyro_average_z}}
+graphite_accel_y_mean = {{accel_average_y}}
+graphite_accel_x_stdev = {{accel_stdev_x}}
+graphite_temperature_stdev = {{gyro_stdev_temp}}
+graphite_accel_z_stdev = {{accel_stdev_z}}
+graphite_gyro_z_stdev = {{gyro_stdev_z}}
+graphite_gyro_x_mean = {{gyro_average_x}}
+graphite_accel_y_stdev = {{accel_stdev_y}}
+graphite_gyro_x_stdev = {{gyro_stdev_x}}
+graphite_accel_x_mean = {{accel_average_x}}

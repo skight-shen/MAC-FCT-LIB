@@ -1,0 +1,34 @@
+Name: als
+{{als_junk}}
+
+Name: accel
+Description: {{accel_vendor}} {{accel_part}} Accelerometer ({{accel_name}})
+Installed: {{accel_installed}}
+
+Name: gyro
+Description: {{gyro_vendor}} {{gyro_part}} Gyro ({{gyro_name}})
+Installed: {{gyro_installed}}
+
+Name: lisa
+Description: Lisa
+Installed: {{lisa_installed}}
+
+Name: platinum
+Description: Platinum
+Installed: {{platinum_installed}}
+
+Name: touch
+Description: {{touch_part}} {{touch_orb}}
+Installed: {{touch_installed}}
+
+Name: orb-i2c
+Description: {{orb_i2c}} {{orb_part}}
+Installed: {{orb_installed}}
+
+Name: pressure
+Description: {{phosphorus_vendor}} {{phosphorous}}
+Installed: {{pressure_installed}}
+
+Name: pressure-fct
+Installed: {{pressure_fct_installed}}
+OK

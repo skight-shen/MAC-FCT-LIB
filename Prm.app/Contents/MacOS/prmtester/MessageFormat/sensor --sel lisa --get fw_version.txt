@@ -1,0 +1,3 @@
+lisa:
+	fw_version = {{lisa_fw_version}}
+OK

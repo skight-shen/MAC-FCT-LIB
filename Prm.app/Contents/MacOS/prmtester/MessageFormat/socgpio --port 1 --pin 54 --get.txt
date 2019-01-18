@@ -1,0 +1,2 @@
+SoC GPIO[1,54] = {{cricket_echo}}
+OK

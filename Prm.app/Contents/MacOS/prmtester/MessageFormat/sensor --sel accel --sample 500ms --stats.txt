@@ -1,0 +1,14 @@
+
+Stats:
+
+accel:
+	# of samples captured: {{accel_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{accel_invalid_sample_count}}
+	calculated odr: {{accel_odr}}Hz
+	average: X = {{accel_average_x}}, Y = {{accel_average_y}}, Z = {{accel_average_z}}, T = {{accel_temp}}
+	std-dev: X = {{accel_stdev_x}}, Y = {{accel_stdev_y}}, Z = {{accel_stdev_z}}, T = {{accel_temp_stdev}}
+	rms:     X = {{accel_rms_x}}, Y = {{accel_rms_y}}, Z = {{accel_rms_z}}, T = {{accel_temp_rms}}
+	min: X = {{accel_min_x}}, Y = {{accel_min_y}}, Z = {{accel_min_z}}, T = {{accel_temp_min}}
+	max: X = {{accel_max_x}}, Y = {{accel_max_y}}, Z = {{accel_max_z}}, T = {{accel_temp_max}}
+	range: X = {{accel_range_x}}, Y = {{accel_range_y}}, Z = {{accel_range_z}}, T = {{accel_temp_range}}
+	median: X = {{accel_median_x}}, Y = {{accel_median_y}}, Z = {{accel_median_z}}, T = {{accel_temp_median}}

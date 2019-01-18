@@ -1,0 +1,3 @@
+platinum:
+	rev = {{CHIP_REV}}
+OK

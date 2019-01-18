@@ -1,0 +1,134 @@
+{
+  "uut0": {
+
+    "dut":{
+      "type":"dut",
+      "port": "/dev/cu.usbmodem143122",
+      "baudrate": "115200",
+      "bytesize": 8,
+      "parity": "N",
+      "stopbits": 1,
+      "timeout": 2
+    },
+    "ZYNQ": {
+      "type": "tcp_zynq",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.32",
+      "port": 7600
+    },
+    "datalogger1": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.32",
+      "port": "7610"
+    },
+    "datalogger2": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.32",
+      "port": "7611"
+    }
+  },
+  "uut1": {
+
+    "dut":{
+      "type":"dut",
+      "port": "/dev/tty.usbserial-AC01UATP",
+      "baudrate": "115200",
+      "bytesize": 8,
+      "parity": "N",
+      "stopbits": 1,
+      "timeout": 5
+    },
+    "ZYNQ": {
+      "type": "tcp_zynq",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.33",
+      "port": 7600
+    },
+    "datalogger1": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.33",
+      "port": "7610"
+    },
+    "datalogger2": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.33",
+      "port": "7611"
+    }
+  },
+  "uut2": {
+    "dut":{
+      "type":"dut",
+      "port": "/dev/tty.usbserial-AC01UATQ",
+      "baudrate": "115200",
+      "bytesize": 8,
+      "parity": "N",
+      "stopbits": 1,
+      "timeout": 5
+    },
+    "ZYNQ": {
+      "type": "tcp_zynq",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.34",
+      "port": 7600
+    },
+    "datalogger1": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.34",
+      "port": "7610"
+    },
+    "datalogger2": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.34",
+      "port": "7611"
+    }
+  },
+  "uut3": {
+
+    "dut":{
+      "type":"dut",
+      "port": "/dev/tty.usbserial-AC01UATL",
+      "baudrate": "115200",
+      "bytesize": 8,
+      "parity": "N",
+      "stopbits": 1,
+      "timeout": 5
+    },
+    "ZYNQ": {
+      "type": "tcp_zynq",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.35",
+      "port": 7600
+    },
+    "datalogger1": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.35",
+      "port": "7610"
+    },
+    "datalogger2": {
+      "type": "logger",
+      "id": "123456",
+      "endStr": "\r\n",
+      "ip": "169.254.1.35",
+      "port": "7611"
+    }
+  }
+
+}

@@ -1,0 +1,4 @@
+{{call_pick_sensor}}.bin
+RunExit
+{{camisp_dli}}
+[

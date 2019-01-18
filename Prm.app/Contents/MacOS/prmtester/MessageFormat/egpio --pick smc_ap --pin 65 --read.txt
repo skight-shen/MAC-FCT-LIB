@@ -1,0 +1,2 @@
+{{noneed0}}from tag "smc_ap" unit 0 pin 0.65: {{pin_65}}
+{{noneed1}}

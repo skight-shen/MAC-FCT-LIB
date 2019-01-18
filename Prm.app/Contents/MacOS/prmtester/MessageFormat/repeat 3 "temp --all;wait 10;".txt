@@ -1,0 +1,14 @@
+Device: soc
+THERMAL0
+    Instant: {{soc_thermal0_instant}} deg C
+    Max    : {{soc_thermal0_max}} deg C
+    Min    : {{soc_thermal0_min}} deg C
+    Average: {{soc_thermal0_avg}} deg C
+THERMAL1
+    Instant: {{soc_thermal1_instant}} deg C
+    Max    : {{soc_thermal1_max}} deg C
+    Min    : {{soc_thermal1_min}} deg C
+    Average: {{soc_thermal1_avg}} deg C
+Device: pmu
+TJINT
+    Instant: {{pmu_tjint}} deg C

@@ -1,0 +1,31 @@
+# of platinum samples captured:{{pt_num_of_samples}}
+
+Platinum Average Test: {{pt_ave_samples}} samples
+	average:  ([LRHR:Slot:Rx:SubFrame:ValidCount] AdcHpf, AdcAc)
+		({{sample_info_avg1}} {{TIA0_HRSLOT0_ADC_HPF_avg}}, {{TIA0_HRSLOT0_ADC_avg}})
+		({{sample_info_avg2}} {{TIA1_HRSLOT0_ADC_HPF_avg}}, {{TIA1_HRSLOT0_ADC_avg}})
+		({{sample_info_avg3}} {{TIA0_HRSLOT1_ADC_HPF_avg}}, {{TIA0_HRSLOT1_ADC_avg}})
+		({{sample_info_avg4}} {{TIA1_HRSLOT1_ADC_HPF_avg}}, {{TIA1_HRSLOT1_ADC_avg}})
+		({{sample_info_avg5}} {{Not_Used1}}, {{TIA0_LRSLOT0_ADC_avg}})
+		({{sample_info_avg6}} {{Not_Used2}}, {{TIA1_LRSLOT0_ADC_avg}})
+
+
+Platinum Noise Test: {{pt_std_samples}} samples
+	average:  ([LRHR:Slot:Rx:SubFrame:ValidCount] AdcHpf, AdcAc)
+		{{notused1}}
+		{{notused2}}
+		{{notused3}}
+		{{notused4}}
+		{{notused5}}
+		{{notused6}}
+
+	std-dev:  ([LRHR:Slot:Rx:SubFrame:ValidCount] AdcHpf, AdcAc)
+		({{sample_info_std1}} {{TIA0_HRSLOT0_ADC_HPF_std}}, {{TIA0_HRSLOT0_ADC_std}})
+		({{sample_info_std2}} {{TIA1_HRSLOT0_ADC_HPF_std}}, {{TIA1_HRSLOT0_ADC_std}})
+		({{sample_info_std3}} {{TIA0_HRSLOT1_ADC_HPF_std}}, {{TIA0_HRSLOT1_ADC_std}})
+		({{sample_info_std4}} {{TIA1_HRSLOT1_ADC_HPF_std}}, {{TIA1_HRSLOT1_ADC_std}})
+		({{sample_info_std5}} {{Not_Used15}}, {{TIA0_LRSLOT0_ADC_std}})
+		({{sample_info_std6}} {{Not_Used16}}, {{TIA1_LRSLOT0_ADC_std}})
+
+test-result: {{pt_bcm_test_result}}
+PASS

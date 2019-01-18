@@ -1,0 +1,2 @@
+[13]HCIResponse:{{bt_register_13}}
+{{-prm-}}[14]HCIResponse:{{bt_register_14}}

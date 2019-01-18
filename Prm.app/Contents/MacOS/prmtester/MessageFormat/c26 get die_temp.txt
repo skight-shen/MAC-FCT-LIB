@@ -1,0 +1,2 @@
+                 die_temp: {{baux_die_temp}}
+OK

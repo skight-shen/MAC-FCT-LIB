@@ -1,0 +1,2 @@
+         firmware_version: {{baux_fw_version}}
+OK

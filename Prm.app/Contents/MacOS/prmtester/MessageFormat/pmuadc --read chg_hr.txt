@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel chg_hr: {{pmu_hr_adc_hr}} mV

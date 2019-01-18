@@ -1,0 +1,3 @@
+spkl:
+{{l_tweeter_addr}} = {{l_speaker_id}}
+OK

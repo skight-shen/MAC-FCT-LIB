@@ -1,0 +1,14 @@
+Channel {{channel}}:
+Mean: {{mean}}
+Mean of Square: {{mean_of_square}}
+RMS (Root-Mean-Square): {{rms}}
+Variance (Mean of Square - Mean Squared): {{variance}}
+Positive dBFS: {{codec_positive_db}}
+Negative dBFS: {{codec_negative_db}}
+Channel {{channel2}}:
+Mean: {{mean2}}
+Mean of Square: {{mean_of_square2}}
+RMS (Root-Mean-Square): {{rms2}}
+Variance (Mean of Square - Mean Squared): {{variance2}}
+Positive dBFS: {{codec_positive_db2}}
+Negative dBFS: {{codec_negative_db2}}

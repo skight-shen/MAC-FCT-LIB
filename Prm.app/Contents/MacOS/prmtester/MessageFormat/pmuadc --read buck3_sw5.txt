@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel buck3_sw5: {{pmu_measure_PP1V8_S0_voltage}} mV

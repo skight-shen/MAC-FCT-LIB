@@ -1,0 +1,3 @@
+found {{cam_sensor}} sensors :  
+pick number{{noneed2}}, front{{noneed2}} 
+Pass

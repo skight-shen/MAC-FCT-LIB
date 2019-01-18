@@ -1,0 +1,2 @@
+
+{{cal_version}} {{full_cal_factor}} {{voltage_cal_factor}} {{current_cal_factor}}

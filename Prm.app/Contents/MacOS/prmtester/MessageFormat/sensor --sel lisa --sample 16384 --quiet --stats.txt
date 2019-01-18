@@ -1,0 +1,7 @@
+lisa:
+	# of samples captured: {{lisa_lb_number_of_samples}}
+	# of bad samples (corrupted/lost): {{lisa_lb_bad_samples}}
+	calculated odr: {{lisa_lb_odr}}Hz
+	average: Dark:({{lisa_lb_ch0_dark_avg}},{{lisa_lb_ch1_dark_avg}},{{lisa_lb_ch2_dark_avg}},{{lisa_lb_ch3_dark_avg}},{{lisa_lb_ch4_dark_avg}},{{lisa_lb_ch5_dark_avg}},{{lisa_lb_ch6_dark_avg}},{{lisa_lb_ch7_dark_avg}}) Light:({{lisa_lb_ch0_light_avg}},{{lisa_lb_ch1_light_avg}},{{lisa_lb_ch2_light_avg}},{{lisa_lb_ch3_light_avg}},{{lisa_lb_ch4_light_avg}},{{lisa_lb_ch5_light_avg}},{{lisa_lb_ch6_light_avg}},{{lisa_lb_ch7_light_avg}})
+	std-dev: Dark:({{lisa_lb_ch0_dark_std}},{{lisa_lb_ch1_dark_std}},{{lisa_lb_ch2_dark_std}},{{lisa_lb_ch3_dark_std}},{{lisa_lb_ch4_dark_std}},{{lisa_lb_ch5_dark_std}},{{lisa_lb_ch6_dark_std}},{{lisa_lb_ch7_dark_std}}) Light:({{lisa_lb_ch0_light_std}},{{lisa_lb_ch1_light_std}},{{lisa_lb_ch2_light_std}},{{lisa_lb_ch3_light_std}},{{lisa_lb_ch4_light_std}},{{lisa_lb_ch5_light_std}},{{lisa_lb_ch6_light_std}},{{lisa_lb_ch7_light_std}})
+OK

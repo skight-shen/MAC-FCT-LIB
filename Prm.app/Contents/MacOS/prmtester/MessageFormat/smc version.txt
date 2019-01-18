@@ -1,0 +1,3 @@
+Revision: {{smc_version}}
+Platform: {{smc_version_platform}}
+OK

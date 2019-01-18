@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel tbat: {{pmuadc_tbat}} Ohm

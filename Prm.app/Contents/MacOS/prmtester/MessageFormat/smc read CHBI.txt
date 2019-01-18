@@ -1,0 +1,2 @@
+Key Read "CHBI":
+00000000: {{smc_read_CHBI}}                                           |

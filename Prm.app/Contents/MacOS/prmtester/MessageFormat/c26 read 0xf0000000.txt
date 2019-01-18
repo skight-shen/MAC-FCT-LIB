@@ -1,0 +1,2 @@
+0xF0000000 => {{bauxite_chip_id}}
+OK

@@ -1,0 +1,4 @@
+
+codec:
+	0x90 = {{BDE_level}}
+OK

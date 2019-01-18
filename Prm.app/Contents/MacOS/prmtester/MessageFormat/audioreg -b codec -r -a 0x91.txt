@@ -1,0 +1,4 @@
+
+codec:
+	0x91 = {{vbat_bin}}
+OK

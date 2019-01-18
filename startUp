@@ -1,0 +1,18 @@
+#!/bin/sh
+#used to launch python-sequencer parts
+#usage:
+#sh startUp site_count
+export PYTHONPATH='/Library/python-sequencer'
+X527_FCT='/Library/python-sequencer'
+
+site_count=${1}
+
+for ((i=0; i < $site_count; i++));
+    do
+        python ${X527_FCT}/x527/engine/testengine.py -o -s $i &
+        sleep 2
+        python ${X527_FCT}/x527/sequencer/sequencer.py -s $i -c -f 1&
+        sleep 2
+done;
+
+python ${X527_FCT}/x527/loggers/logger.py

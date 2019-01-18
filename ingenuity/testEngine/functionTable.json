@@ -1,0 +1,83 @@
+{
+
+  "Callback"  :
+  [
+    "start_test",
+    "end_test",
+    "totaltime"
+  ],
+
+  "Zynq" :
+  [
+    "disconnect",
+    "relay",
+    "dmm",
+    "powersequencemonitor",
+    "detectvoltageraise",
+    "detectvoltagefall",
+    "powersequencedelta",
+    "psdata_handle",
+    "thdn",
+    "amplitude",
+    "frequency",
+    "pdmenable",
+    "measure",
+    "pdmdisable",
+    "settach",
+    "setio",
+    "eload",
+    "iload",
+    "closeload",
+    "fixtureid",
+    "usbctrl",
+    "vendor_id"
+  ],
+
+  "BatteryEmulator" :
+  [
+    "diags_send",
+    "init_emulator",
+    "trim_battery_output",
+    "read_sink_current",
+    "read_source_current",
+    "emulator_selfcheck",
+    "zynq_set_voltage",
+    "zynq_read_sink_current"
+  ],
+  "Potassium" :
+          [
+            "potassium"
+          ],
+  "Dut" :
+          [
+            "diags",
+            "efidiags",
+            "iefisend",
+            "efisend",
+            "timerreset",
+            "timerstop",
+            "enteriboot",
+            "diags",
+            "parse",
+            "rtc",
+            "checklistedcb",
+            "checkfailcount",
+            "iefiparse",
+            "iefisend",
+            "parse_i2c_device",
+            "parsedmic",
+            "writecb",
+            "enterefi",
+            "efiparse",
+            "efidetect"
+          ],
+
+  "Common":
+          [
+            "delay",
+            "skip",
+            "hextoint",
+            "hextofloat",
+            "floattohex"
+          ]
+}

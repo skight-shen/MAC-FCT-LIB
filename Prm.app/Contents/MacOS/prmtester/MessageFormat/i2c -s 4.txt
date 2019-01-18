@@ -1,0 +1,3 @@
+Sweeping bus 4
+Bus 4 IC exists at Address: (7-bit) {{i2c4_addr_0_7b}} (8-bit) {{i2c4_addr_0}}
+Bus 4 IC exists at Address: (7-bit) {{i2c4_addr_1_7b}} (8-bit) {{i2c4_addr_1}}

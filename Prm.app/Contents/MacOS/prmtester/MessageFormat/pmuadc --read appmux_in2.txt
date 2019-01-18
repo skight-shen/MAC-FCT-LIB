@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel appmux_in2: {{appmux_in2}} mV

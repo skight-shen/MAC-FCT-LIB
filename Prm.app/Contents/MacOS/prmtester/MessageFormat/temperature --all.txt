@@ -1,0 +1,25 @@
+Device: pmu
+  TDIE
+      Instant: {{temp_tdie}} deg C
+  LDO4
+      Instant: {{temp_ldo4}} deg C
+  CHG
+      Instant: {{temp_chg}} deg C
+  BUCK0
+      Instant: {{temp_buck0}} deg C
+  BUCK1
+      Instant: {{temp_buck1}} deg C
+  BUCK2
+      Instant: {{temp_buck2}} deg C
+  BUCK3
+      Instant: {{temp_buck3}} deg C
+  TBAT
+      Instant: {{temp_tbat}} deg C
+  TDEV1
+      Instant: {{temp_tdev1}} deg C
+  TDEV2
+      Instant: {{temp_tdev2}} deg C
+  TDEV3
+      Instant: {{temp_tdev3}} deg C
+  TDEV4
+      Instant: {{temp_tdev4}} deg C

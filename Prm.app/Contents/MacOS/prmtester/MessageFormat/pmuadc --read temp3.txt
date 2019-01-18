@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel temp3: {{pmuadc_temp3}} Ohm

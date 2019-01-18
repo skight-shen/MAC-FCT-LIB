@@ -1,0 +1,1 @@
+PMU GPIO[3] = {{pmu_gpio_pin3_value}

@@ -1,0 +1,5 @@
+Chip  ID: {{chipid}} Version: {{Version}}
+Die   ID: {{dieid}}
+Fuse  ID: {{fuseid}}
+ECID    : {{ecid}}
+Raw ECID: {{raw_ecid}}

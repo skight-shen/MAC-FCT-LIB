@@ -1,0 +1,2 @@
+SoC GPIO[0,98] = {{socgpio_98}}
+OK

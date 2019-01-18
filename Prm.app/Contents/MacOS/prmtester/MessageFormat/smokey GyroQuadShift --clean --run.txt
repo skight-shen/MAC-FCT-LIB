@@ -1,0 +1,15 @@
+CA_orig_gyro_mean_z = {{orig_gyro_mean_z}}
+CA_orig_gyro_std_y = {{orig_gyro_std_y}}
+CA_demod_gyro_std_z = {{demod_gyro_std_z}}
+CA_orig_gyro_temp = {{orig_gyro_temp}}
+CA_orig_gyro_std_x = {{orig_gyro_std_x}}
+CA_demod_gyro_temp = {{demod_gyro_temp}}
+CA_demod_gyro_mean_x = {{demod_gyro_mean_x}}
+CA_demod_gyro_std_y = {{demod_gyro_std_y}}
+CA_orig_gyro_mean_x = {{orig_gyro_mean_x}}
+CA_demod_gyro_mean_y = {{demod_gyro_mean_y}}
+CA_demod_gyro_mean_z = {{demod_gyro_mean_z}}
+CA_demod_gyro_std_x = {{demod_gyro_std_x}}
+CA_orig_gyro_mean_y = {{orig_gyro_mean_y}}
+CA_orig_gyro_std_z = {{orig_gyro_std_z}}
+

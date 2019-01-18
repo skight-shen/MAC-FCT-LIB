@@ -1,0 +1,5 @@
+
+DEBUG = 3
+INFO = 2
+CRITICAL = 1
+REPORTER = 0

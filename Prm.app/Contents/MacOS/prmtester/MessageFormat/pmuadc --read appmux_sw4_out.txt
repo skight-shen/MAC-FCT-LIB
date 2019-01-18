@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel appmux_sw4_out: {{appmux_sw4_out}} mV

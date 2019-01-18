@@ -1,0 +1,2 @@
+
+{{version}} {{cv_offset_fixed_v}} {{buck0_offset_fixed_mv}} {{buck1_offset_fixed_mv}}

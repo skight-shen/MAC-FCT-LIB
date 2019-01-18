@@ -1,0 +1,21 @@
+Executing test 'vac_test' on sensor 'lisa'...
+
+# of samples captured:{{lisa_lb_number_of_samples}}
+	min: 
+		Dark:({{lisa_lb_ch0_dark_min}},{{lisa_lb_ch1_dark_min}},{{lisa_lb_ch2_dark_min}},{{lisa_lb_ch3_dark_min}},{{lisa_lb_ch4_dark_min}},{{lisa_lb_ch5_dark_min}},{{lisa_lb_ch6_dark_min}},{{lisa_lb_ch7_dark_min}})
+		Light:({{lisa_lb_ch0_light_min}},{{lisa_lb_ch1_light_min}},{{lisa_lb_ch2_light_min}},{{lisa_lb_ch3_light_min}},{{lisa_lb_ch4_light_min}},{{lisa_lb_ch5_light_min}},{{lisa_lb_ch6_light_min}},{{lisa_lb_ch7_light_min}})
+		Diff:({{lisa_lb_ch0_diff_min}},{{lisa_lb_ch1_diff_min}},{{lisa_lb_ch2_diff_min}},{{lisa_lb_ch3_diff_min}},{{lisa_lb_ch4_diff_min}},{{lisa_lb_ch5_diff_min}},{{lisa_lb_ch6_diff_min}},{{lisa_lb_ch7_diff_min}})
+	max: 
+		Dark:({{lisa_lb_ch0_dark_max}},{{lisa_lb_ch1_dark_max}},{{lisa_lb_ch2_dark_max}},{{lisa_lb_ch3_dark_max}},{{lisa_lb_ch4_dark_max}},{{lisa_lb_ch5_dark_max}},{{lisa_lb_ch6_dark_max}},{{lisa_lb_ch7_dark_max}})
+		Light:({{lisa_lb_ch0_light_max}},{{lisa_lb_ch1_light_max}},{{lisa_lb_ch2_light_max}},{{lisa_lb_ch3_light_max}},{{lisa_lb_ch4_light_max}},{{lisa_lb_ch5_light_max}},{{lisa_lb_ch6_light_max}},{{lisa_lb_ch7_light_max}})
+		Diff:({{lisa_lb_ch0_diff_max}},{{lisa_lb_ch1_diff_max}},{{lisa_lb_ch2_diff_max}},{{lisa_lb_ch3_diff_max}},{{lisa_lb_ch4_diff_max}},{{lisa_lb_ch5_diff_max}},{{lisa_lb_ch6_diff_max}},{{lisa_lb_ch7_diff_max}})
+	average: 
+		Dark:({{lisa_lb_ch0_dark_avg}},{{lisa_lb_ch1_dark_avg}},{{lisa_lb_ch2_dark_avg}},{{lisa_lb_ch3_dark_avg}},{{lisa_lb_ch4_dark_avg}},{{lisa_lb_ch5_dark_avg}},{{lisa_lb_ch6_dark_avg}},{{lisa_lb_ch7_dark_avg}})
+		Light:({{lisa_lb_ch0_light_avg}},{{lisa_lb_ch1_light_avg}},{{lisa_lb_ch2_light_avg}},{{lisa_lb_ch3_light_avg}},{{lisa_lb_ch4_light_avg}},{{lisa_lb_ch5_light_avg}},{{lisa_lb_ch6_light_avg}},{{lisa_lb_ch7_light_avg}})
+		Diff:({{lisa_lb_ch0_diff_avg}},{{lisa_lb_ch1_diff_avg}},{{lisa_lb_ch2_diff_avg}},{{lisa_lb_ch3_diff_avg}},{{lisa_lb_ch4_diff_avg}},{{lisa_lb_ch5_diff_avg}},{{lisa_lb_ch6_diff_avg}},{{lisa_lb_ch7_diff_avg}})
+	std-dev: 
+		Dark:({{lisa_lb_ch0_dark_std}},{{lisa_lb_ch1_dark_std}},{{lisa_lb_ch2_dark_std}},{{lisa_lb_ch3_dark_std}},{{lisa_lb_ch4_dark_std}},{{lisa_lb_ch5_dark_std}},{{lisa_lb_ch6_dark_std}},{{lisa_lb_ch7_dark_std}})
+		Light:({{lisa_lb_ch0_light_std}},{{lisa_lb_ch1_light_std}},{{lisa_lb_ch2_light_std}},{{lisa_lb_ch3_light_std}},{{lisa_lb_ch4_light_std}},{{lisa_lb_ch5_light_std}},{{lisa_lb_ch6_light_std}},{{lisa_lb_ch7_light_std}})
+		Diff:({{lisa_lb_ch0_diff_std}},{{lisa_lb_ch1_diff_std}},{{lisa_lb_ch2_diff_std}},{{lisa_lb_ch3_diff_std}},{{lisa_lb_ch4_diff_std}},{{lisa_lb_ch5_diff_std}},{{lisa_lb_ch6_diff_std}},{{lisa_lb_ch7_diff_std}})
+test-result: {{lisa_vactest_result}}
+{{lisa_vactest_passfail}}

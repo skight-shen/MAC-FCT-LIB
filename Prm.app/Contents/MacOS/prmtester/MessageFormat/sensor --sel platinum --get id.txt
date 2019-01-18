@@ -1,0 +1,3 @@
+platinum:
+	id = {{CHIP_ID}}
+OK

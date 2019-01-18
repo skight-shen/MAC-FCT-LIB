@@ -1,0 +1,2 @@
+SoC GPIO[0,89] = {{cricket_rx}}
+OK

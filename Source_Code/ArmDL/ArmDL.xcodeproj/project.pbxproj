@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04996A351CAD63A200DC1159 /* Publisher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04996A331CAD63A200DC1159 /* Publisher.cpp */; };
+		04996A361CAD63A200DC1159 /* Publisher.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 04996A341CAD63A200DC1159 /* Publisher.hpp */; };
+		04996A3A1CAD640200DC1159 /* libZMQX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04996A391CAD640100DC1159 /* libZMQX.a */; };
+		0F8A57AB1B44F14500A6E5F1 /* ArmDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8A57A21B44F14500A6E5F1 /* ArmDL.h */; };
+		0F8A57AC1B44F14500A6E5F1 /* ArmDL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57A41B44F14500A6E5F1 /* ArmDL.mm */; };
+		0F8A57AD1B44F14500A6E5F1 /* CArmDL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8A57A51B44F14500A6E5F1 /* CArmDL.h */; };
+		0F8A57AE1B44F14500A6E5F1 /* CArmDL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57A61B44F14500A6E5F1 /* CArmDL.mm */; };
+		0F8A57AF1B44F14500A6E5F1 /* DataParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8A57A71B44F14500A6E5F1 /* DataParse.h */; };
+		0F8A57B01B44F14500A6E5F1 /* DataParse.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57A81B44F14500A6E5F1 /* DataParse.mm */; };
+		0F8A57B11B44F14500A6E5F1 /* DLClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8A57A91B44F14500A6E5F1 /* DLClient.h */; };
+		0F8A57B21B44F14500A6E5F1 /* DLClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57AA1B44F14500A6E5F1 /* DLClient.mm */; };
+		0F8A57B51B44F17200A6E5F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57B41B44F17200A6E5F1 /* main.m */; };
+		0F8A57D11B44F1C300A6E5F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8A57D01B44F1C300A6E5F1 /* Foundation.framework */; };
+		0FBFAA991BFCFC880054286B /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBFAA971BFCFC880054286B /* GCDAsyncSocket.h */; };
+		0FBFAA9A1BFCFC880054286B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFAA981BFCFC880054286B /* GCDAsyncSocket.m */; };
+		0FBFAAC01BFD09AD0054286B /* NetFS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFAABF1BFD09AD0054286B /* NetFS.framework */; };
+		0FBFAAC21BFD09B40054286B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFAAC11BFD09B40054286B /* Security.framework */; };
+		0FBFAAC41BFD09BF0054286B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBFAAC31BFD09BF0054286B /* AppKit.framework */; };
+		8D129B3A1E067374001EBB42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8A57B41B44F17200A6E5F1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FB41F671B45080A00E814BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04996A331CAD63A200DC1159 /* Publisher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Publisher.cpp; path = ../Common/zmq/Publisher.cpp; sourceTree = "<group>"; };
+		04996A341CAD63A200DC1159 /* Publisher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Publisher.hpp; path = ../Common/zmq/Publisher.hpp; sourceTree = "<group>"; };
+		04996A391CAD640100DC1159 /* libZMQX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZMQX.a; path = "../../../Library/Developer/Xcode/DerivedData/TestManager-cqmnlmooddfjnndloljrvvlnbgtt/Build/Products/Debug/libZMQX.a"; sourceTree = "<group>"; };
+		0F8A578E1B44F06900A6E5F1 /* libArmDL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libArmDL.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8A57A21B44F14500A6E5F1 /* ArmDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArmDL.h; path = ArmDL/ArmDL.h; sourceTree = "<group>"; };
+		0F8A57A41B44F14500A6E5F1 /* ArmDL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ArmDL.mm; path = ArmDL/ArmDL.mm; sourceTree = "<group>"; };
+		0F8A57A51B44F14500A6E5F1 /* CArmDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CArmDL.h; path = ArmDL/CArmDL.h; sourceTree = "<group>"; };
+		0F8A57A61B44F14500A6E5F1 /* CArmDL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CArmDL.mm; path = ArmDL/CArmDL.mm; sourceTree = "<group>"; };
+		0F8A57A71B44F14500A6E5F1 /* DataParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataParse.h; path = ArmDL/DataParse.h; sourceTree = "<group>"; };
+		0F8A57A81B44F14500A6E5F1 /* DataParse.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DataParse.mm; path = ArmDL/DataParse.mm; sourceTree = "<group>"; };
+		0F8A57A91B44F14500A6E5F1 /* DLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLClient.h; path = ArmDL/DLClient.h; sourceTree = "<group>"; };
+		0F8A57AA1B44F14500A6E5F1 /* DLClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DLClient.mm; path = ArmDL/DLClient.mm; sourceTree = "<group>"; };
+		0F8A57B41B44F17200A6E5F1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ArmDLTest/main.m; sourceTree = "<group>"; };
+		0F8A57D01B44F1C300A6E5F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FB41F691B45080A00E814BF /* ArmDLTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArmDLTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBFAA871BFCF98C0054286B /* GT_ArmDL_Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GT_ArmDL_Config.plist; sourceTree = "<group>"; };
+		0FBFAA971BFCFC880054286B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = ArmDL/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		0FBFAA981BFCFC880054286B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = ArmDL/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		0FBFAABF1BFD09AD0054286B /* NetFS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetFS.framework; path = System/Library/Frameworks/NetFS.framework; sourceTree = SDKROOT; };
+		0FBFAAC11BFD09B40054286B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0FBFAAC31BFD09BF0054286B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0FBFAB101BFD55530054286B /* ArmDL.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = ArmDL.lua; path = ArmDL/ArmDL.lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8A578B1B44F06900A6E5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04996A3A1CAD640200DC1159 /* libZMQX.a in Frameworks */,
+				0FBFAAC41BFD09BF0054286B /* AppKit.framework in Frameworks */,
+				0FBFAAC21BFD09B40054286B /* Security.framework in Frameworks */,
+				0FBFAAC01BFD09AD0054286B /* NetFS.framework in Frameworks */,
+				0F8A57D11B44F1C300A6E5F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB41F661B45080A00E814BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04996A301CAD638F00DC1159 /* zmq_pub */ = {
+			isa = PBXGroup;
+			children = (
+				04996A391CAD640100DC1159 /* libZMQX.a */,
+				04996A331CAD63A200DC1159 /* Publisher.cpp */,
+				04996A341CAD63A200DC1159 /* Publisher.hpp */,
+			);
+			name = zmq_pub;
+			sourceTree = "<group>";
+		};
+		0F8A57851B44F06900A6E5F1 = {
+			isa = PBXGroup;
+			children = (
+				04996A301CAD638F00DC1159 /* zmq_pub */,
+				0FBFAB101BFD55530054286B /* ArmDL.lua */,
+				0FBFAAC31BFD09BF0054286B /* AppKit.framework */,
+				0FBFAAC11BFD09B40054286B /* Security.framework */,
+				0FBFAABF1BFD09AD0054286B /* NetFS.framework */,
+				0FBFAA871BFCF98C0054286B /* GT_ArmDL_Config.plist */,
+				0F8A57D01B44F1C300A6E5F1 /* Foundation.framework */,
+				0F8A57B31B44F15E00A6E5F1 /* ArmDLTest */,
+				0F8A57A21B44F14500A6E5F1 /* ArmDL.h */,
+				0F8A57A41B44F14500A6E5F1 /* ArmDL.mm */,
+				0F8A57A51B44F14500A6E5F1 /* CArmDL.h */,
+				0F8A57A61B44F14500A6E5F1 /* CArmDL.mm */,
+				0F8A57A91B44F14500A6E5F1 /* DLClient.h */,
+				0F8A57AA1B44F14500A6E5F1 /* DLClient.mm */,
+				0F8A57A71B44F14500A6E5F1 /* DataParse.h */,
+				0F8A57A81B44F14500A6E5F1 /* DataParse.mm */,
+				0FBFAA971BFCFC880054286B /* GCDAsyncSocket.h */,
+				0FBFAA981BFCFC880054286B /* GCDAsyncSocket.m */,
+				0F8A578F1B44F06900A6E5F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F8A578F1B44F06900A6E5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F8A578E1B44F06900A6E5F1 /* libArmDL.dylib */,
+				0FB41F691B45080A00E814BF /* ArmDLTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F8A57B31B44F15E00A6E5F1 /* ArmDLTest */ = {
+			isa = PBXGroup;
+			children = (
+				0F8A57B41B44F17200A6E5F1 /* main.m */,
+			);
+			name = ArmDLTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F8A578C1B44F06900A6E5F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8A57AB1B44F14500A6E5F1 /* ArmDL.h in Headers */,
+				0F8A57AD1B44F14500A6E5F1 /* CArmDL.h in Headers */,
+				0F8A57AF1B44F14500A6E5F1 /* DataParse.h in Headers */,
+				04996A361CAD63A200DC1159 /* Publisher.hpp in Headers */,
+				0F8A57B11B44F14500A6E5F1 /* DLClient.h in Headers */,
+				0FBFAA991BFCFC880054286B /* GCDAsyncSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F8A578D1B44F06900A6E5F1 /* ArmDL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8A57921B44F06900A6E5F1 /* Build configuration list for PBXNativeTarget "ArmDL" */;
+			buildPhases = (
+				0F8A578A1B44F06900A6E5F1 /* Sources */,
+				0F8A578B1B44F06900A6E5F1 /* Frameworks */,
+				0F8A578C1B44F06900A6E5F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArmDL;
+			productName = ArmDL;
+			productReference = 0F8A578E1B44F06900A6E5F1 /* libArmDL.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		0FB41F681B45080A00E814BF /* ArmDLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FB41F711B45080A00E814BF /* Build configuration list for PBXNativeTarget "ArmDLTest" */;
+			buildPhases = (
+				0FB41F651B45080A00E814BF /* Sources */,
+				0FB41F661B45080A00E814BF /* Frameworks */,
+				0FB41F671B45080A00E814BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArmDLTest;
+			productName = ArmDLTest;
+			productReference = 0FB41F691B45080A00E814BF /* ArmDLTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F8A57861B44F06900A6E5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = IA;
+				TargetAttributes = {
+					0F8A578D1B44F06900A6E5F1 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0FB41F681B45080A00E814BF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 0F8A57891B44F06900A6E5F1 /* Build configuration list for PBXProject "ArmDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F8A57851B44F06900A6E5F1;
+			productRefGroup = 0F8A578F1B44F06900A6E5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8A578D1B44F06900A6E5F1 /* ArmDL */,
+				0FB41F681B45080A00E814BF /* ArmDLTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F8A578A1B44F06900A6E5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBFAA9A1BFCFC880054286B /* GCDAsyncSocket.m in Sources */,
+				0F8A57AE1B44F14500A6E5F1 /* CArmDL.mm in Sources */,
+				0F8A57B01B44F14500A6E5F1 /* DataParse.mm in Sources */,
+				04996A351CAD63A200DC1159 /* Publisher.cpp in Sources */,
+				0F8A57B21B44F14500A6E5F1 /* DLClient.mm in Sources */,
+				0F8A57B51B44F17200A6E5F1 /* main.m in Sources */,
+				0F8A57AC1B44F14500A6E5F1 /* ArmDL.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB41F651B45080A00E814BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D129B3A1E067374001EBB42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F8A57901B44F06900A6E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../TCPSocket/TCPSocket/\"",
+				);
+				INSTALL_PATH = "@loader_path";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F8A57911B44F06900A6E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../TCPSocket/TCPSocket/\"",
+				);
+				INSTALL_PATH = "@loader_path";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F8A57931B44F06900A6E5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestManager-ddxaohofgwnfincefllawjfxtxod/Build/Products/Debug",
+					"$(PROJECT_DIR)",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+					"/Users/prmeasure/lib/xcode/ZMQX-feniugmjfzltrsezyjlmvxbavjvp/Build/Products/Debug/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		0F8A57941B44F06900A6E5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestManager-ddxaohofgwnfincefllawjfxtxod/Build/Products/Debug",
+					"$(PROJECT_DIR)",
+					/Users/prmeasure/Documents/Jasmine/Tulip/Lib/NanoHippo_py/pytest/ZMQX/zmq,
+					"/Users/prmeasure/lib/xcode/ZMQX-feniugmjfzltrsezyjlmvxbavjvp/Build/Products/Debug/",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		0FB41F6D1B45080A00E814BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FB41F6E1B45080A00E814BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8A57891B44F06900A6E5F1 /* Build configuration list for PBXProject "ArmDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8A57901B44F06900A6E5F1 /* Debug */,
+				0F8A57911B44F06900A6E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8A57921B44F06900A6E5F1 /* Build configuration list for PBXNativeTarget "ArmDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8A57931B44F06900A6E5F1 /* Debug */,
+				0F8A57941B44F06900A6E5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FB41F711B45080A00E814BF /* Build configuration list for PBXNativeTarget "ArmDLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB41F6D1B45080A00E814BF /* Debug */,
+				0FB41F6E1B45080A00E814BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F8A57861B44F06900A6E5F1 /* Project object */;
+}

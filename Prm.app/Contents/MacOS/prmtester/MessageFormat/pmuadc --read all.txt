@@ -1,0 +1,155 @@
+PMU ADC test
+Read all Channels
+Read PMU ADC channels
+vddout: {{vddout}} mV
+vbat: {{vbat}} mV
+die_temp: {{die_temp}} C
+tcal: {{tcal}} mV
+tbat: {{tbat}} Ohm
+temp1: {{temp1}} Ohm
+temp2: {{temp2}} Ohm
+temp3: {{temp3}} Ohm
+temp4: {{temp4}} Ohm
+temp_ldo4: {{temp_ldo4}} C
+temp_chg: {{temp_chg}} C
+temp_buck0: {{temp_buck0}} C
+temp_buck1: {{temp_buck1}} C
+temp_buck2: {{temp_buck2}} C
+temp_buck3: {{temp_buck3}} C
+temp_buck4: {{temp_buck4}} C
+temp_buck5: {{temp_buck5}} C
+temp_buck6: {{temp_buck6}} C
+temp_buck7: {{temp_buck7}} C
+temp_bubo: {{temp_bubo}} C
+tjint: {{tjint}} C
+ibuck0: {{ibuck0}} mA
+ibuck1: {{ibuck1}} mA
+ibuck2: {{ibuck2}} mA
+ibuck3: {{ibuck3}} mA
+ibuck4: {{ibuck4}} mA
+ibuck5: {{ibuck5}} mA
+ibuck6: {{ibuck6}} mA
+ibuck7: {{ibuck7}} mA
+ibubo: {{ibubo}} mV
+ibuck0_offset: {{ibuck0_offset}} mA
+ibuck1_offset: {{ibuck1_offset}} mA
+ibuck2_offset: {{ibuck2_offset}} mA
+ibuck3_offset: {{ibuck3_offset}} mA
+ibuck4_offset: {{ibuck4_offset}} mA
+ibuck5_offset: {{ibuck5_offset}} mA
+ibuck6_offset: {{ibuck6_offset}} mA
+ibuck7_offset: {{ibuck7_offset}} mA
+ibubo_offset: {{ibubo_offset}} mV
+ich: {{ich}} mA
+BIST buck0: {{buck0}} mV
+BIST buck1: {{buck1}} mV
+BIST buck2: {{buck2}} mV
+BIST buck3: {{buck3}} mV
+BIST buck4: {{buck4}} mV
+BIST buck5: {{buck5}} mV
+BIST buck6: {{buck6}} mV
+BIST buck7: {{buck7}} mV
+BIST bubo: {{bubo}} mV
+BIST buck2_sw2: {{buck2_sw2}} mV
+BIST buck3_sw3a: {{buck3_sw3a}} mV
+BIST buck3_sw3b: {{buck3_sw3b}} mV
+BIST buck3_sw3c: {{buck3_sw3c}} mV
+BIST vddmain_sw4: {{vddmain_sw4}} mV
+BIST buck4_sw5: {{buck4_sw5}} mV
+BIST bubo_sw6: {{bubo_sw6}} mV
+BIST dropout_sw2: {{dropout_sw2}} mV
+BIST dropout_sw2_offset: {{dropout_sw2_offset}} mV
+BIST dropout_sw3a: {{dropout_sw3a}} mV
+BIST dropout_sw3a_offset: {{dropout_sw3a_offset}} mV
+BIST dropout_sw3b: {{dropout_sw3b}} mV
+BIST dropout_sw3b_offset: {{dropout_sw3b_offset}} mV
+BIST dropout_sw3c: {{dropout_sw3c}} mV
+BIST dropout_sw3c_offset: {{dropout_sw3c_offset}} mV
+BIST dropout_sw4: {{dropout_sw4}} mV
+BIST dropout_sw4_offset: {{dropout_sw4_offset}} mV
+BIST dropout_sw5: {{dropout_sw5}} mV
+BIST dropout_sw5_offset: {{dropout_sw5_offset}} mV
+BIST ldo0: {{ldo0}} mV
+BIST ldo1: {{ldo1}} mV
+BIST ldo2: {{ldo2}} mV
+BIST ldo3: {{ldo3}} mV
+BIST ldo4: {{ldo4}} mV
+BIST ldo5: {{ldo5}} mV
+BIST ldo6: {{ldo6}} mV
+BIST ldo7: {{ldo7}} mV
+BIST ldo8: {{ldo8}} mV
+BIST ldo9: {{ldo9}} mV
+BIST ldo10: {{ldo10}} mV
+BIST vrtc: {{vrtc}} mV
+BIST chg_hr: {{chg_hr}} mV
+BIST chg_hr_off: {{chg_hr_off}} mV
+BIST ildo0: {{ildo0}} mA
+BIST ildo1: {{ildo1}} mA
+BIST ildo2: {{ildo2}} mA
+BIST ildo3: {{ildo3}} mA
+BIST ildo4: {{ildo4}} mA
+BIST ildo5: {{ildo5}} mA
+BIST ildo6: {{ildo6}} mA
+BIST ildo7: {{ildo7}} mA
+BIST ildo8: {{ildo8}} mA
+BIST ildo9: {{ildo9}} mA
+BIST ildo10: {{ildo10}} mA
+BIST irtc: {{irtc}} mA
+BIST appmux: {{appmux}} mV
+BIST appmux_in1: {{appmux_in1}} mV
+BIST appmux_in2: {{appmux_in2}} mV
+BIST appmux_in3: {{appmux_in3}} mV
+BIST appmux_in4: {{appmux_in4}} mV
+BIST appmux_in5: {{appmux_in5}} mV
+BIST appmux_in6: {{appmux_in6}} mV
+BIST appmux_in7: {{appmux_in7}} mV
+BIST appmux_sw2: {{appmux_sw2}} mV
+BIST appmux_sw3: {{appmux_sw3}} mV
+BIST appmux_sw4: {{appmux_sw4}} mV
+BIST appmux_sw5: {{appmux_sw5}} mV
+BIST appmux_sw6: {{appmux_sw6}} mV
+BIST appmux_vbuck0: {{appmux_vbuck0}} mV
+BIST appmux_vbuck1: {{appmux_vbuck1}} mV
+BIST appmux_vbuck5: {{appmux_vbuck5}} mV
+BIST appmux_vbuck6: {{appmux_vbuck6}} mV
+BIST appmux_vbuck7: {{appmux_vbuck7}} mV
+BIST appmux_vldo0: {{appmux_vldo0}} mV
+BIST appmux_vldo1: {{appmux_vldo1}} mV
+BIST appmux_vldo2: {{appmux_vldo2}} mV
+BIST appmux_vldo3: {{appmux_vldo3}} mV
+BIST appmux_vldo4: {{appmux_vldo4}} mV
+BIST appmux_vldo5: {{appmux_vldo5}} mV
+BIST appmux_vldo6: {{appmux_vldo6}} mV
+BIST appmux_vldo7: {{appmux_vldo7}} mV
+BIST appmux_vldo8: {{appmux_vldo8}} mV
+BIST appmux_vldo9: {{appmux_vldo9}} mV
+BIST appmux_vldo10: {{appmux_vldo10}} mV
+BIST appmux_sw2_out: {{appmux_sw2_out}} mV
+BIST appmux_sw3a_out: {{appmux_sw3a_out}} mV
+BIST appmux_sw3b_out: {{appmux_sw3b_out}} mV
+BIST appmux_sw3c_out: {{appmux_sw3c_out}} mV
+BIST appmux_sw4_out: {{appmux_sw4_out}} mV
+BIST appmux_sw5_out: {{appmux_sw5_out}} mV
+BIST appmux_sw6_out: {{appmux_sw6_out}} mV
+BIST appmux_gpio1: {{appmux_gpio1}} mV
+BIST appmux_gpio2: {{appmux_gpio2}} mV
+BIST appmux_gpio3: {{appmux_gpio3}} mV
+BIST appmux_gpio4: {{appmux_gpio4}} mV
+BIST appmux_gpio5: {{appmux_gpio5}} mV
+BIST appmux_gpio6: {{appmux_gpio6}} mV
+BIST appmux_gpio7: {{appmux_gpio7}} mV
+BIST appmux_gpio8: {{appmux_gpio8}} mV
+BIST appmux_gpio9: {{appmux_gpio9}} mV
+BIST appmux_gpio10: {{appmux_gpio10}} mV
+BIST appmux_gpio11: {{appmux_gpio11}} mV
+BIST appmux_gpio12: {{appmux_gpio12}} mV
+BIST appmux_gpio13: {{appmux_gpio13}} mV
+BIST appmux_gpio14: {{appmux_gpio14}} mV
+BIST appmux_gpio15: {{appmux_gpio15}} mV
+BIST appmux_gpio16: {{appmux_gpio16}} mV
+BIST appmux_gpio17: {{appmux_gpio17}} mV
+BIST appmux_gpio18: {{appmux_gpio18}} mV
+BIST appmux_gpio19: {{appmux_gpio19}} mV
+BIST appmux_gpio20: {{appmux_gpio20}} mV
+BIST appmux_gpio21: {{appmux_gpio21}} mV
+BIST appmux_gpio22: {{appmux_gpio22}} mV

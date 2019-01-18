@@ -1,0 +1,8 @@
+CA_gyro_odr = {{gyro_odr}}
+CA_gyro_stdev_x = {{gyro_stdev_x}}
+CA_gyro_mean_z = {{gyro_average_z}}
+CA_gyro_stdev_y = {{gyro_stdev_y}}
+CA_gyro_mean_y = {{gyro_average_y}}
+CA_gyro_mean_x = {{gyro_average_x}}
+CA_gyro_stdev_z = {{gyro_stdev_z}}
+

@@ -1,0 +1,2 @@
+Key Read "ADC7":
+00000000:{{ADC7_value}}                                           |

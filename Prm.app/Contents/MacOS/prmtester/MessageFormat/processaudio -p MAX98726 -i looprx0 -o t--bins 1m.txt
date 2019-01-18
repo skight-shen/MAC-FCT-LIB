@@ -1,0 +1,7 @@
+Allocated output buffer 'process0' for use with processor...
+Allocated output buffer 'process1' for use with processor...
+--bins
+Bin 1:
+	vmon PP = {{v_pp}}V, imon PP = {{i_pp}}mA
+vmon Rms = {{v_rms}}V, imon Rms = {{i_rms}}mA
+OK

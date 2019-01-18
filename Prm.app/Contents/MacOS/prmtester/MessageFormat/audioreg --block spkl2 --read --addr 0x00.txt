@@ -1,0 +1,3 @@
+spkl2:
+{{l_woofer_id_addr}} = {{l_woofer_id}}
+OK

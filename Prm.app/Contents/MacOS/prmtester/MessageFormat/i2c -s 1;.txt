@@ -1,0 +1,3 @@
+Sweeping bus 1
+Bus 1 IC exists at Address: (7-bit) {{i2c1_addr_0_7b}} (8-bit) {{i2c1_addr_0}}
+Bus 1 IC exists at Address: (7-bit) {{i2c1_addr_1_7b}} (8-bit) {{i2c1_addr_1}}

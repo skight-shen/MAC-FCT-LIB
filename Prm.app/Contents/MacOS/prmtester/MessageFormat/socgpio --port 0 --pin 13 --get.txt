@@ -1,0 +1,2 @@
+SoC GPIO[0,13] = {{IRQ_level}}
+OK

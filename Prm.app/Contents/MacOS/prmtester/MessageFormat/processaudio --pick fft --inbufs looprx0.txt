@@ -1,0 +1,24 @@
+Number of samples does not equal power of 2 - truncating to {{samples}} samples...
+Channel 0:
+Using {{x}} bins, Peak Bin={{peak_bin}}; Peak Magnitude={{codec_peak_magnitude}} FS; Frequency: {{frequency}} +/- {{freq_div}} Hz
+DC Magnitude={{dc_magnitude}} FS
+Signal Bins={{signal_bins}}
+SINAD={{codec_sinad}} dBFS
+Peak Power: {{codec_peak_power}} dBFS
+Signal Power: {{signal_power}} dBFS
+Noise Power: {{noise_power}} dBFS
+Average Noise PSD: {{noise_psd}} dBFS
+Noise Margin: {{noise_margin}} dBFS
+THD+N: {{codec_thdn}} dB
+Channel 1:
+WARNING: Noise Power can not be zero for SINAD calculation (divide by zero), setting SINAD to 0
+Using {{x2}} bins, Peak Bin={{peak_bin2}}; Peak Magnitude={{codec_peak_magnitude2}} FS; Frequency: {{frequency2}} +/- {{freq_div2}} Hz
+DC Magnitude={{dc_magnitude2}} FS
+Signal Bins={{signal_bins2}}
+SINAD={{sinad2}} dBFS
+Peak Power: {{codec_peak_power2}} dBFS
+Signal Power: {{signal_power2}} dBFS
+Noise Power: {{noise_power2}} dBFS
+Average Noise PSD: {{noise_psd2}} dBFS
+Noise Margin: {{noise_margin2}} dBFS
+THD+N: {{thdn2}} dB

@@ -1,0 +1,14 @@
+Capturing samples for 500 milliseconds from:
+accel @ {{accel_set_odr}} Hz
+Waiting for capture to finish...
+
+
+Stats:
+
+accel:
+	# of samples captured: {{accel_captured_sample_count}}
+	# of bad samples (corrupted/lost): {{accel_invalid_sample_count}}
+	calculated odr: {{accel_odr}}Hz
+	average: X = {{accel_average_x}}, Y = {{accel_average_y}}, Z = {{accel_average_z}}, T = {{accel_temp}}
+	std-dev: X = {{accel_stdev_x}}, Y = {{accel_stdev_y}}, Z = {{accel_stdev_z}}, T = {{accel_temp_stdev}}
+OK

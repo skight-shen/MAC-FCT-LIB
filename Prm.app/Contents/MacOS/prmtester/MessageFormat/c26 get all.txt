@@ -1,0 +1,26 @@
+                   status: {{baux_fw_status}}
+         firmware_version: {{baux_fw_version}}
+               conn_state: "{{baux_conn_state}}"
+          headroom_target: {{baux_hr_target}}
+             vrect_target: {{baux_vrect_target}}
+               dummy_load: {{baux_dummy_load}}
+                    cloak: {{baux_cloak}}
+                backpower: {{baux_backpower}}
+                 vbat_sns: {{baux_vbat_sns}}
+            vrect_low_res: {{baux_vrect_low_res}}
+           vrect_high_res: {{baux_vrect_high_res}}
+                 vdd_main: {{baux_vdd_main}}
+                    pp1v8: {{baux_pp1v8}}
+                 headroom: {{baux_headroom}}
+                    imain: {{baux_imain}}
+                  aux_ldo: {{baux_aux_ldo}}
+                    gpio1: {{baux_gpio1}}
+                    gpio2: {{baux_gpio2}}
+                    gpio3: {{baux_gpio3}}
+                    gpio4: {{baux_gpio4}}
+                 die_temp: {{baux_die_temp}}
+                     cdet: {{baux_cdet}}
+                    irect: {{baux_irect}}
+      tx_firmware_version: "{{baux_tx_fw}}"
+                tx_serial: "{{baux_tx_serial}}"
+

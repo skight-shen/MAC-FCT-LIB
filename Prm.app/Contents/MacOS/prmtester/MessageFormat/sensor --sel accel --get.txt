@@ -1,0 +1,15 @@
+accel:
+	manu_id = {{accel_manu_id}}
+	chip_id = {{accel_chip_id}}
+	rev_id = {{accel_rev_id}}
+	mems_wafer_id = {{accel_mems_wafer_id}}
+	mems_die_id = {{accel_mems_die_id}}
+	asic_wafer_id = {{accel_asic_wafer_id}}
+	asic_die_id = {{accel_asic_die_id}}
+	lpm = {{accel_lpm}}
+	lpm_duty_cycle = {{accel_lpm_duty_cycle}}
+	rate = {{accel_rate}}
+	bw = {{accel_bw}}
+	datatype = {{accel_datatype}}
+	dynamic_range = {{accel_dynamic_range}}
+OK

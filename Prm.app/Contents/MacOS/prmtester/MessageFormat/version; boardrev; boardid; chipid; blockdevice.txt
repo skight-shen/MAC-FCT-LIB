@@ -1,0 +1,20 @@
+{{program}} Diag ({{branch}})
+{{build_engine}} build {{build_version}} ({{diags_version}}). Revision {{revision}}.
+	Built at {{build_date_time}}
+Board Revision: {{board_rev}}
+Board Id: {{board_id}}
+Chip  ID: {{chipid}} Version: {{Version}}
+Die   ID: {{dieid}}
+Fuse  ID: {{fuseid}}
+ECID    : {{ecid}}
+Raw ECID: {{raw_ecid}}
+Firmware Volume Devices:
+  fv0: {{unused0}}
+File System Devices:
+  fs0: {{build_train}}.{{unused1}}
+  fs1: {{unused3}}
+Block IO Devices:
+  blk0: {{unused4}}
+  blk1: {{unused5}}
+  blk2: {{unused6}}
+  blk3: {{unused7}}

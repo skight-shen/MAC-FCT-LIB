@@ -1,0 +1,15 @@
+>> properties
+vendor          = {{tristar_vendor}}
+Base version    = {{tristar_base_version}}
+Metal version   = {{tristar_metal_version}}
+Dx ID           = {{tristar_dx_id}}
+ACCx ID         = {{tristar_accx_id}}
+DX1             = {{tristar_dx1}}
+DX2             = {{tristar_dx2}}
+ACC2            = {{tristar_acc2}}
+ACC1            = {{tristar_acc1}}
+idSink          = {{tristar_idsink}}
+VDX             = {{tristar_vdx}}
+ID Connected    = {{tristar_id_connected}}
+ID Orientation  = {{tristar_id_orientation}}
+Con Detect Low  = {{tristar_con_detect_low}}

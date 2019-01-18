@@ -1,0 +1,2 @@
+Key Read "ADC3":
+00000000:{{ADC3_value}}                                           |

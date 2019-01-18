@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ARM0</key>
+	<string>169.254.1.32</string>
+	<key>ARM0_Port</key>
+	<string>7603</string>
+	<key>ARM1</key>
+	<string>169.254.1.33</string>
+	<key>ARM1_Port</key>
+	<string>7603</string>
+	<key>ARM2</key>
+	<string>169.254.1.34</string>
+	<key>ARM2_Port</key>
+	<string>7603</string>
+	<key>ARM3</key>
+	<string>169.254.1.35</string>
+	<key>ARM3_Port</key>
+	<string>7603</string>
+	<key>ARM4</key>
+	<string>169.254.1.36</string>
+	<key>ARM4_Port</key>
+	<string>7603</string>
+	<key>ARM5</key>
+	<string>169.254.1.37</string>
+	<key>ARM5_Port</key>
+	<string>7603</string>
+	<key>GetOri</key>
+	<string>0</string>
+	<key>ReferenceVolt</key>
+	<string>5.0</string>
+	<key>Resistor</key>
+	<string>0.5</string>
+	<key>Gain</key>
+	<string>3.1</string>
+</dict>
+</plist>

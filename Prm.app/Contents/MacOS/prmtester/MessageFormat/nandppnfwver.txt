@@ -1,0 +1,2 @@
+Firmware Version:
+CE 0: {{nand_fw_ver}}

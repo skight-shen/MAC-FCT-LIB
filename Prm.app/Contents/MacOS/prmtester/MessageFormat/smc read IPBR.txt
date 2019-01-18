@@ -1,0 +1,2 @@
+Key Read "IPBR":
+00000000: {{smc_read_IPBR}}                                    |

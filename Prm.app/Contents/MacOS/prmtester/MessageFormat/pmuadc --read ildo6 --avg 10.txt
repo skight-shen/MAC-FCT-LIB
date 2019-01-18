@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ildo6: {{ildo6_avg10}} mA

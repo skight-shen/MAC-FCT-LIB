@@ -1,0 +1,3 @@
+LC OSC frequency trim code: {{trim_code}}
+PtOC key value: {{PtOC_key}}
+Finish!

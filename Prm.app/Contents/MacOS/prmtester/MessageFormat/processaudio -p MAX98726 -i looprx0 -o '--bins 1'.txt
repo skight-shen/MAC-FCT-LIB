@@ -1,0 +1,3 @@
+Bin 1:
+	vmon PP = {{v_pp}}V, imon PP = {{i_pp}}mA
+vmon Rms = {{v_rms}}V, imon Rms = {{i_rms}}mA

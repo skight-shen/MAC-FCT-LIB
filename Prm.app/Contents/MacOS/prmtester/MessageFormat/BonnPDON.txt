@@ -1,0 +1,3 @@
+Disabling RTP!
+Reset to use RTP again!
+Measured pulse width = {{lisa_bonn_pdon_width_ticks}} ticks

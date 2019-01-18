@@ -1,0 +1,42 @@
+{
+  "ELOAD_CAL": {
+    "ELOAD_A": "0X360",
+    "ELOAD_B": "0X370",
+    "ELOAD_C": "0X380",
+    "ELOAD_D": "0X390",
+    "ILOAD_A": "0X3A0",
+    "ILOAD_B": "0X3B0",
+    "ILOAD_C": "0X3C0",
+    "ILOAD_D": "0X3D0"
+  },
+  "DATALOGGER_CAL": {
+    "PPVBAT_G3H_VOLTAGE": "0X300",
+    "PPDCIN_G3H_VOLTAGE": "0X310",
+    "PPVBAT_G3H_CURRENT": "0X320",
+    "PPDCIN_G3H_CURRENT": "0X330"
+  },
+  "VOL_860_SIP_VT":{
+    "PP5V_G3S":"0x200",
+    "PPBUS_G3H":"0X210",
+    "PPDCIN_G3H":"0X220",
+    "PPVBAT_G3H_CONN":"0X230",
+    "PPVOUT_S0_LCDBKLT":"0X240",
+    "USBC_CHARGE_VBUS_OUT_DIV":"0X250",
+    "Temperature":"0x260"
+  },
+  "VOLTAGE_MODULE":{
+    "SNS_CAL":["ref_11mV","ref_8mV","ref_6mV","ref_5mV","ref_3mV","ref_2mV","ref_1mV"],
+    "PPDIV_CAL":["ref_8V","ref_7V","ref_6V","ref_5V","ref_4V","ref_3V"],
+    "PP12V_SIP_CAL":["CONNECT"],
+    "ALL_AI_CAL":["VOLT_REF_1","VOLT_REF_2","VOLT_REF_3","VOLT_REF_4"],
+    "VOL_CAL":["DISCONNECT","CONNECT"],
+    "VOL_SIP_CAL":["CONNECT"]
+  },
+
+  "DATALOGGER_826_CAL":{
+    "PPVBAT_G3H_VOLTAGE": "0X300",
+    "PPVBAT_G3H_CURRENT_L":"0X310",
+    "PPVBAT_G3H_CURRENT_H":"0X310"
+  }
+}
+

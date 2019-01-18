@@ -1,0 +1,22 @@
+Channel 0:
+Using {{use_bin0}} bins, Peak Bin={{peak_bin0}}; Peak Magnitude={{alert_peak_curr}} FS; Frequency: {{alert_freq0}} Hz
+DC Magnitude={{dc_magnitude0}} FS
+Signal Bins={{signal_bins0}}
+SINAD={{sinad0}} dBFS
+Peak Power: {{peak_power0}} dBFS
+Signal Power: {{signal_power0}} dBFS
+Noise Power: {{noise_power0}} dBFS
+Average Noise PSD: {{average_noise0}} dBFS
+Noise Margin: {{noise_margin0}} dBFS
+THD+N: {{thdn0}} dB
+Channel 1:
+Using {{use_bin1}} bins, Peak Bin={{peak_bin1}}; Peak Magnitude={{alert_peak_volt}} FS; Frequency: {{alert_freq1}} Hz
+DC Magnitude={{dc_magnitude1}} FS
+Signal Bins={{signal_bins1}}
+SINAD={{sinad1}} dBFS
+Peak Power: {{peak_power1}} dBFS
+Signal Power: {{signal_power1}} dBFS
+Noise Power: {{noise_power1}} dBFS
+Average Noise PSD: {{average_noise1}} dBFS
+Noise Margin: {{noise_margin1}} dBFS
+THD+N: {{thdn1}} dB

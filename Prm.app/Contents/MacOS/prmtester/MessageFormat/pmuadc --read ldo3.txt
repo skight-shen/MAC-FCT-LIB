@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ldo3: {{ldo3}} mV

@@ -1,0 +1,4 @@
+GPIO 'SPI' = {{lisa_conntest_spi}}
+GPIO 'RST' = {{lisa_conntest_rst}}
+test-result: {{lisa_conntest_test_result}}
+{{Lisa_conntest_print}}

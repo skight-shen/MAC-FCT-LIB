@@ -1,0 +1,9 @@
+{
+	"ChangeFodlerTime":3600,
+	"ZipKeep":86400,
+	"CleanFrequence":300,
+	"RootBasePath":"/vault/PRM_offline_log",
+	"StreamHandler":0,
+	"FileHandler":1,
+	"OnlineConfig":"/Users/gdlocal/Public/PRMeasurement/python-sequencer/x527/config.json"
+}

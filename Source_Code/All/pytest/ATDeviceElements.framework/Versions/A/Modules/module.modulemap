@@ -1,0 +1,6 @@
+framework module ATDeviceElements {
+  umbrella header "ATDeviceElements.h"
+
+  export *
+  module * { export * }
+}

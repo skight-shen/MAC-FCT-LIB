@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel ich: {{tbat_efi_ich}} mA

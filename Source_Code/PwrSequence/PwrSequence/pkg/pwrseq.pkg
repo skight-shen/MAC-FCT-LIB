@@ -1,0 +1,36 @@
+//
+//  GPIO.cpp
+//  TCPIP
+//
+//  Created by IvanGan on 15/5/14.
+//  Copyright (c) 2015年 IA. All rights reserved.
+//
+
+$#include "CPwrSeq.h"
+
+class CPWRSEQ{
+public:
+    CPWRSEQ();
+    CPWRSEQ(int mid);
+    CPWRSEQ(int mid, const char* name);
+    ~CPWRSEQ();
+    
+public:
+    int CreateTCPClient(const char* name, const char* ip, short port);
+    int CreatZmqPub(const char* address, int writeLog=0);
+    int CreatZmqPub_BKLT(const char* address, int writeLog=0);
+    
+    int  startDataLogger(const char * logPath, int flag);
+    int  stopDataLogger(int flag);
+    //void updateConfig(float gain, float offset,int flag=0);
+    void updateConfig(const char* config, int flag,int configID);
+    
+    void setPwrSeqChannel(int ch);
+    int getPwrSeqChannel();
+    
+    int ConnectClient();
+    int DisconnectClient();
+    void ResetTimeStamp();
+};
+
+

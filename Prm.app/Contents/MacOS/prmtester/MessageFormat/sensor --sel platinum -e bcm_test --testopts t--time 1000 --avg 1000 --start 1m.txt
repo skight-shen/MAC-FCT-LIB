@@ -1,0 +1,16 @@
+# of platinum samples captured:{{pt_num_of_samples}}
+
+Platinum Average Test: {{pt_ave_samples}} samples
+	average:  ([LRHR:Slot:Rx:SubFrame:ValidCount] AdcHpf, AdcAc)
+		([HR:0:0:0:{{pt_ave_samples_debug1}}] {{TIA0_HRSLOT0_SUB0_ADC_HPF_avg}}, {{TIA0_HRSLOT0_SUB0_ADC_avg}})
+		([HR:0:0:1:{{pt_ave_samples_debug2}}] {{TIA0_HRSLOT0_SUB1_ADC_HPF_avg}}, {{TIA0_HRSLOT0_SUB1_ADC_avg}})
+		([HR:0:1:0:{{pt_ave_samples_debug3}}] {{TIA0_HRSLOT0_SUB0_ADC_HPF_avg}}, {{TIA1_HRSLOT0_SUB0_ADC_avg}})
+		([HR:0:1:1:{{pt_ave_samples_debug4}}] {{TIA0_HRSLOT0_SUB1_ADC_HPF_avg}}, {{TIA1_HRSLOT0_SUB1_ADC_avg}})
+		([HR:1:0:0:{{pt_ave_samples_debug5}}] {{TIA0_HRSLOT0_SUB0_ADC_HPF_avg}}, {{TIA0_HRSLOT1_SUB0_ADC_avg}})
+		([HR:1:0:1:{{pt_ave_samples_debug6}}] {{TIA0_HRSLOT0_SUB1_ADC_HPF_avg}}, {{TIA0_HRSLOT1_SUB1_ADC_avg}})
+		([HR:1:1:0:{{pt_ave_samples_debug7}}] {{TIA0_HRSLOT0_SUB0_ADC_HPF_avg}}, {{TIA1_HRSLOT1_SUB0_ADC_avg}})
+		([HR:1:1:1:{{pt_ave_samples_debug8}}] {{TIA0_HRSLOT0_SUB1_ADC_HPF_avg}}, {{TIA1_HRSLOT1_SUB1_ADC_avg}})
+		([LR:0:0:0:8] {{Not_Used1}}, {{TIA0_LRSLOT0_SUB0_ADC_avg}})
+		([LR:0:0:1:8] {{Not_Used2}}, {{TIA0_LRSLOT0_SUB1_ADC_avg}})
+		([LR:0:1:0:8] {{Not_Used3}}, {{TIA1_LRSLOT0_SUB0_ADC_avg}})
+		([LR:0:1:1:8] {{Not_Used4}}, {{TIA1_LRSLOT0_SUB1_ADC_avg}})

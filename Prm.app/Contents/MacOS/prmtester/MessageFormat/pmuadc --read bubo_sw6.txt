@@ -1,0 +1,2 @@
+PMU ADC test
+ADC Channel bubo_sw6: {{pmuadc_bubo_sw6}} mV

@@ -1,0 +1,2 @@
+               conn_state: "{{baux_conn_state}}"
+OK

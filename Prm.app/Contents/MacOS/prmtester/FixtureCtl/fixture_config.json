@@ -1,0 +1,15 @@
+{
+  "fixture": {
+    "uart":
+    {
+      "type": "uart",
+      "port": "/dev/cu.usbserial-A1075EQW",
+      "baud_rate": "115200",
+      "byte_size": 8,
+      "parity": "N",
+      "stop_bits": 1,
+      "timeout": 2,
+      "end_str": "\r\n"
+    }
+  }
+}
